@@ -1,0 +1,87 @@
+:root{--navy:#142d4c;--blue:#3b82f6;--yellow:#f6d77b;--bg:#f4f7fb;--muted:#718096;--line:#e5ebf3;--green:#36b37e;--coral:#ef6a63;--white:#fff}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--navy);font-family:Nunito,"Segoe UI",Arial,sans-serif}button,input{font:inherit}header{height:72px;background:#fff;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 max(4vw,18px);position:sticky;top:0;z-index:10}.brand{display:flex;align-items:center;gap:11px;font-weight:1000;font-size:20px;letter-spacing:.4px}.brand b{display:grid;place-items:center;width:43px;height:43px;border-radius:14px;background:var(--blue);color:white;font-size:23px;box-shadow:0 5px 0 #2360bf}.brand small{display:block;font-size:10px;color:var(--muted);font-weight:700;letter-spacing:0}.topstats{display:flex;align-items:center;gap:16px;font-weight:900}.soundbtn{border:0;background:#eef4ff;border-radius:12px;padding:8px 10px;cursor:pointer}.layout{display:grid;grid-template-columns:225px 1fr;max-width:1500px;margin:auto;min-height:calc(100vh - 72px)}aside{background:#fff;border-right:1px solid var(--line);padding:18px 13px}aside button{display:flex;align-items:center;gap:11px;width:100%;text-align:left;border:0;background:white;padding:12px 13px;border-radius:12px;margin:4px 0;font:900 13px Nunito;color:#65758b;cursor:pointer;transition:.18s}aside button:hover,aside button.active{background:#eaf2ff;color:var(--blue);transform:translateX(2px)}.side-mascot{margin:38px 8px 0;padding:17px 8px;text-align:center;background:#fff6db;border-radius:18px}.numi{display:inline-grid;place-items:center;width:65px;height:65px;border-radius:22px;background:var(--yellow);color:var(--navy);font-size:30px;font-weight:1000;box-shadow:0 5px 0 #e8c65d;animation:bob 3s ease-in-out infinite}.side-mascot b,.side-mascot small{display:block;margin-top:8px}.side-mascot small{font-size:10px;color:#8b7440}@keyframes bob{50%{transform:translateY(-5px) rotate(3deg)}}main{padding:30px clamp(16px,4vw,58px);max-width:1280px;width:100%;margin:auto}.hero{position:relative;overflow:hidden;background:linear-gradient(115deg,#142d4c,#245b91);color:white;padding:34px;border-radius:25px;display:flex;justify-content:space-between;align-items:center;box-shadow:0 12px 28px #142d4c18}.hero:after{content:"";position:absolute;width:280px;height:280px;border:35px solid #ffffff0d;border-radius:50%;right:100px;top:-140px}.hero h1{font-size:clamp(25px,3vw,36px);margin:8px 0}.hero p{color:#dce9f8;max-width:530px}.eyebrow{font-size:10px;letter-spacing:1.8px;color:#83aee7;font-weight:1000}.mascot{font-size:51px;display:grid;place-items:center;background:var(--yellow);color:var(--navy);width:104px;height:104px;border-radius:32px;box-shadow:0 8px 0 #d9b64c;z-index:1}.primary,.secondary,.danger{border:0;border-radius:12px;padding:11px 16px;font:1000 13px Nunito;cursor:pointer;transition:.16s}.primary{background:var(--yellow);color:var(--navy);box-shadow:0 4px 0 #d9b64c}.primary:hover{transform:translateY(-2px)}.secondary{background:white;border:1px solid #dce5f0;color:var(--navy)}.danger{background:#fff0ef;color:#bb3933}.head{display:flex;justify-content:space-between;align-items:center;margin:25px 0 13px;gap:10px}h1{font-size:27px;margin:10px 0}h2{font-size:19px;margin:0}h3{font-size:15px}.muted{color:var(--muted);font-size:13px}.worlds{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}.world,.panel,.level,.question,.block,.stat,.flashcard{background:white;border:1px solid var(--line);border-radius:18px;padding:18px}.world{cursor:pointer;transition:.2s;position:relative;overflow:hidden}.world:hover{box-shadow:0 12px 25px #142d4c12;transform:translateY(-3px)}.world h3{font-size:15px;margin:10px 0 5px}.world p{font-size:12px;color:var(--muted);min-height:35px}.world .worldicon{font-size:28px}.world .progressline,.progressline{height:8px;background:#eaf0f7;border-radius:9px;overflow:hidden}.progressline span{display:block;height:100%;background:var(--green);border-radius:9px}.levels{display:grid;gap:10px;margin-top:14px}.level{display:flex;align-items:center;gap:13px;transition:.15s}.level.locked{opacity:.63;background:#f9fbfd}.bubble{flex:none;background:#eaf2ff;color:var(--blue);border-radius:15px;width:45px;height:45px;display:grid;place-items:center;font-weight:1000}.level.done .bubble{background:#dcfce7;color:#15803d}.level h3{margin:0;font-size:14px}.level p{margin:4px 0 0;font-size:11px;color:var(--muted)}.level button{margin-left:auto;white-space:nowrap}.lesson{max-width:820px;margin:auto}.lessonbar{display:flex;align-items:center;gap:12px;margin:16px 0}.lessonbar .progressline{flex:1}.block{margin:12px 0;line-height:1.75}.block h3{font-size:13px;margin:0 0 5px;color:#3169b2}.block p{margin:0;font-size:14px}.question{margin:13px 0}.option{display:block;width:100%;text-align:left;padding:12px 14px;margin:8px 0;border:1.5px solid var(--line);border-radius:12px;background:#f9fbfe;font:800 13px Nunito;color:var(--navy);cursor:pointer;transition:.12s}.option:hover:not(:disabled){border-color:#8db5f6;background:#f0f6ff}.option.correct{background:#e7f8ef;border-color:var(--green)}.option.wrong{background:#fff0ef;border-color:var(--coral)}.option:disabled{cursor:default}.feedback{padding:14px;background:#eff6ff;border-radius:13px;font-size:13px;margin-top:12px}.feedback.good{background:#e9f9f0}.feedback.bad{background:#fff2f0}.toast{position:fixed;bottom:22px;left:50%;transform:translate(-50%,30px);background:var(--navy);color:white;padding:12px 18px;border-radius:13px;opacity:0;pointer-events:none;transition:.25s;z-index:30;font-size:13px;font-weight:900}.toast.show{opacity:1;transform:translate(-50%,0)}.tree{display:flex;flex-wrap:wrap;gap:9px;margin-top:18px}.node{padding:12px 15px;border:1px solid var(--line);border-radius:12px;background:white;font-weight:900;cursor:pointer}.node:hover{border-color:var(--blue);color:var(--blue)}.lab{display:grid;grid-template-columns:1fr 1fr;gap:14px}.big{font-size:43px;font-weight:1000;color:var(--blue);text-align:center;margin:14px}.panel label{display:block;margin:10px 0;font-size:13px;font-weight:800}.panel input[type=range]{width:100%;accent-color:var(--blue)}.panel input[type=number],.panel input[type=text]{padding:10px;border:1px solid var(--line);border-radius:10px;width:100%}.statsgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.stat b{display:block;font-size:25px}.stat small{color:var(--muted)}.achievement{display:flex;align-items:center;gap:13px}.medal{width:48px;height:48px;display:grid;place-items:center;background:#fff5d8;border-radius:15px;font-size:23px}.achievement.locked{opacity:.45;filter:grayscale(1)}.flashwrap{max-width:650px;margin:20px auto}.flashcard{min-height:230px;display:grid;place-items:center;text-align:center;cursor:pointer;background:linear-gradient(145deg,#fff,#f0f6ff);border:2px solid #dbe8fa}.flashcard .front{font-size:25px;font-weight:1000}.flashcard .back{font-size:16px;line-height:1.7}.flashactions{display:flex;justify-content:center;gap:10px;margin:15px 0;flex-wrap:wrap}.settingsrow{display:flex;justify-content:space-between;align-items:center;padding:14px 0;border-bottom:1px solid var(--line)}.switch{accent-color:var(--blue);width:20px;height:20px}.daily{background:#fff8e5;border:1px solid #f2dfaa;border-radius:16px;padding:17px}.admin-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}@media(max-width:980px){.worlds{grid-template-columns:repeat(2,1fr)}}@media(max-width:760px){.layout{grid-template-columns:1fr}aside{display:flex;overflow:auto;padding:7px;position:sticky;top:72px;z-index:5;border-bottom:1px solid var(--line)}aside button{white-space:nowrap;width:auto;padding:10px 12px}.side-mascot{display:none}aside button span{display:inline}main{padding:20px 14px}.hero{padding:24px}.mascot{width:75px;height:75px;font-size:37px}.lab{grid-template-columns:1fr}.statsgrid{grid-template-columns:repeat(2,1fr)}.admin-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:480px){.topstats{gap:8px;font-size:12px}.brand{font-size:16px}.brand b{width:37px;height:37px}.hero{padding:20px}.mascot{display:none}.worlds{gap:9px}.world{padding:13px}.world p{min-height:45px}.level{padding:13px;gap:9px}.level button{padding:9px}.level h3{font-size:12px}}
+/* NUMI: original geometric mascot silhouette and face */
+.mascot,.numi{position:relative;color:transparent!important;font-size:0!important;overflow:hidden}
+.mascot::before,.numi::before{content:"";position:absolute;left:31%;top:34%;width:11px;height:11px;border-radius:50%;background:#142d4c;box-shadow:28px 0 0 #142d4c}
+.mascot::after,.numi::after{content:"";position:absolute;left:calc(50% - 17px);bottom:23%;width:34px;height:15px;border-bottom:4px solid #142d4c;border-radius:0 0 50% 50%}
+.mascot.sad::after{border-bottom:0;border-top:4px solid #142d4c;border-radius:50% 50% 0 0;bottom:19%}
+.mascot.happy::after{height:19px;border-bottom-width:5px}
+
+/* Connected learning trail */
+.levels{position:relative}.levels:before{content:"";position:absolute;left:40px;top:24px;bottom:24px;width:4px;background:#dce9fb;border-radius:5px;z-index:0}.level{position:relative;z-index:1;box-shadow:0 2px 0 #eaf0f7}.bubble{border-radius:50%;box-shadow:0 3px 0 #d5e4fa}
+
+/* NUMI personality and accessory studio */
+.mascot,.numi{animation:numiFloat 2.8s ease-in-out infinite;transform-origin:50% 85%;}
+.mascot:hover,.numi:hover{animation:numiDance .55s ease-in-out infinite alternate;}
+.mascot::before,.numi::before{animation:numiBlink 4.2s infinite;transform-origin:center;}
+@keyframes numiFloat{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-8px) rotate(2deg)}}
+@keyframes numiDance{from{transform:rotate(-8deg) translateY(-2px)}to{transform:rotate(8deg) translateY(-7px)}}
+@keyframes numiBlink{0%,44%,48%,100%{transform:scaleY(1)}46%{transform:scaleY(.12)}}
+.wear{position:absolute;z-index:3;top:-8px;left:50%;transform:translateX(-50%);font-size:29px;line-height:1;filter:drop-shadow(0 2px 1px #142d4c22);pointer-events:none}
+.mascot .wear{top:-12px;font-size:38px}.numi .wear{top:-9px;font-size:25px}
+.shop-hero{display:flex;align-items:center;gap:24px;margin:18px 0;background:linear-gradient(110deg,#fff8df,#f0f6ff)}
+.shop-hero .mascot{flex:none}.shop-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px;margin:16px 0}
+.shop-item{background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px;display:flex;flex-direction:column;gap:7px;min-width:0}
+.accessory-preview{height:90px;display:grid;place-items:center;background:#f2f6fc;border-radius:14px;font-size:46px}
+.shop-item>b{font-size:14px}.shop-item p{margin:0;min-height:34px}.shop-price{font-weight:1000;color:#a36a00;margin:4px 0}.shop-item button{margin-top:auto}.shop-item button:disabled{opacity:.55;cursor:not-allowed}.shop-note{margin-top:16px}
+@media(max-width:980px){.shop-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:480px){.shop-grid{grid-template-columns:1fr 1fr}.shop-item{padding:12px}.shop-hero{gap:12px}.shop-hero .mascot{width:74px;height:74px}}
+
+/* Build 0.2.3 fix: accessories must sit above/on NUMI, not be clipped. */
+.mascot,.numi{overflow:visible!important}
+.mascot .wear{top:-20px;font-size:38px}
+.numi .wear{top:-14px;font-size:26px}
+.mascot.cap .wear,.numi.cap .wear{top:-18px}
+.mascot.crown .wear,.numi.crown .wear{top:-25px}
+.mascot.halo .wear,.numi.halo .wear{top:-27px}
+.mascot.antenna .wear,.numi.antenna .wear{top:-24px}
+.mascot.glasses .wear,.numi.glasses .wear{top:34%;left:50%;font-size:30px}
+.mascot.bow .wear,.numi.bow .wear{top:8%;left:83%;font-size:26px}
+.mascot.flower .wear,.numi.flower .wear{top:5%;left:18%;font-size:27px}
+.mascot.scarf .wear,.numi.scarf .wear{top:auto;bottom:-13px;font-size:32px}
+
+/* Build 0.2.4: anchor absolute accessory overlays to the mascot itself. */
+.mascot,.numi{position:relative!important}
+
+
+/* Build 0.2.5: accessories are siblings of the mascot body, not children.
+   This prevents mascot overflow/stacking rules from hiding the accessory. */
+.mascot-stage,.numi-stage{position:relative!important;display:inline-block!important;overflow:visible!important;flex:none;isolation:isolate;vertical-align:middle}
+.mascot-stage{width:104px;height:104px}
+.mascot-stage>.mascot{position:absolute!important;inset:0;width:100%;height:100%;z-index:1}
+.numi-stage{width:65px;height:65px}
+.numi-stage>.numi{position:absolute!important;inset:0;width:100%;height:100%;z-index:1}
+.mascot-stage>.wear,.numi-stage>.wear{position:absolute!important;display:block!important;visibility:visible!important;opacity:1!important;z-index:20!important;left:50%;top:-18px;bottom:auto;transform:translateX(-50%);font-family:"Segoe UI Emoji","Apple Color Emoji",sans-serif;font-size:38px!important;line-height:1!important;color:initial!important;white-space:nowrap;pointer-events:none}
+.numi-stage>.wear{top:-12px;font-size:26px!important}
+.mascot-stage.cap>.wear,.numi-stage.cap>.wear{top:-14px}
+.mascot-stage.crown>.wear,.numi-stage.crown>.wear{top:-22px}
+.mascot-stage.halo>.wear,.numi-stage.halo>.wear{top:-24px}
+.mascot-stage.antenna>.wear,.numi-stage.antenna>.wear{top:-21px}
+.mascot-stage.glasses>.wear,.numi-stage.glasses>.wear{top:32%;left:50%;font-size:30px!important}
+.numi-stage.glasses>.wear{font-size:22px!important}
+.mascot-stage.bow>.wear,.numi-stage.bow>.wear{top:8%;left:83%;font-size:27px!important}
+.mascot-stage.flower>.wear,.numi-stage.flower>.wear{top:5%;left:18%;font-size:28px!important}
+.mascot-stage.scarf>.wear,.numi-stage.scarf>.wear{top:auto;bottom:-10px;font-size:32px!important}
+@media(max-width:760px){.mascot-stage{width:75px;height:75px}}
+@media(max-width:480px){.mascot-stage{display:none!important}}
+
+/* Explicit stage selectors for each wearable. */
+.mascot-stage.cap>.wear,.numi-stage.cap>.wear{top:-14px}
+.mascot-stage.crown>.wear,.numi-stage.crown>.wear{top:-22px}
+.mascot-stage.halo>.wear,.numi-stage.halo>.wear{top:-24px}
+.mascot-stage.antenna>.wear,.numi-stage.antenna>.wear{top:-21px}
+.mascot-stage.glasses>.wear,.numi-stage.glasses>.wear{top:32%;left:50%;font-size:30px!important}
+.mascot-stage.bow>.wear,.numi-stage.bow>.wear{top:8%;left:83%;font-size:27px!important}
+.mascot-stage.flower>.wear,.numi-stage.flower>.wear{top:5%;left:18%;font-size:28px!important}
+.mascot-stage.scarf>.wear,.numi-stage.scarf>.wear{top:auto;bottom:-10px;font-size:32px!important}
+
+
+/* Build 0.2.6: NUMI is a set of finished cartoon illustrations, not CSS/emoji overlays. */
+.mascot-stage{width:132px;height:132px;display:inline-block!important;position:relative;overflow:visible;flex:none;animation:numiFloat 2.8s ease-in-out infinite;vertical-align:middle}
+.mascot-stage>.numi-art{display:block;width:100%;height:100%;object-fit:contain;position:relative;z-index:1;user-select:none;-webkit-user-drag:none;filter:drop-shadow(0 5px 2px rgba(20,45,76,.10))}
+.numi-stage{width:70px;height:70px;display:block;position:relative;overflow:visible;animation:numiFloat 2.8s ease-in-out infinite}
+.numi-stage>.numi-art{display:block;width:100%;height:100%;object-fit:contain;user-select:none;-webkit-user-drag:none}
+.numi-art.sad{filter:saturate(.82) brightness(.98)}
+.accessory-preview{height:112px;display:grid;place-items:center;background:linear-gradient(145deg,#f7faff,#edf4ff);border-radius:14px;overflow:hidden}
+.accessory-preview img{width:106px;height:106px;object-fit:contain;filter:drop-shadow(0 3px 2px rgba(20,45,76,.10))}
+@media(max-width:760px){.mascot-stage{width:108px;height:108px}.numi-stage{width:60px;height:60px}}
+@media(max-width:480px){.mascot-stage{display:inline-block!important;width:86px;height:86px}.shop-hero .mascot-stage{width:86px;height:86px}.accessory-preview{height:92px}.accessory-preview img{width:88px;height:88px}}

@@ -1,0 +1,24 @@
+NUMERA Build 0.2.6 — Automated test results
+
+PASS: python -m py_compile server.py
+PASS: node --check static/app.js
+PASS: python -m unittest discover -s tests -v
+
+13 automated tests passed:
+- All nine finished transparent NUMI illustrations exist and have expected dimensions
+- App uses complete image variants instead of emoji accessory overlays
+- Responsive illustration display rules are present
+- All four learning worlds and curriculum structure
+- Minimum question-bank coverage and valid answer options
+- Known calculation answer keys
+- Distinct order-of-operations example and practice question
+- Flashcard coverage
+- Build 0.1 database migration
+- Daily reward anti-repeat
+- Persistent learning rewards and spaced review
+- XP shop purchase, inventory persistence, and equip
+
+Image asset inspection: PASS — all 9 PNGs are 512×512 RGBA with transparent backgrounds.
+ZIP integrity: PASS.
+
+Chromium smoke test: NOT COMPLETED. The environment blocked navigation to the local test server with ERR_BLOCKED_BY_ADMINISTRATOR, so no browser-render pass is claimed. A smoke test on the user's Windows installation is still recommended.

@@ -1,0 +1,2643 @@
+{
+  "worlds": [
+    {
+      "id": "bilangan",
+      "name": "Bilangan",
+      "icon": "🔢",
+      "desc": "Angka, operasi, rasio, dan perbandingan.",
+      "units": [
+        [
+          "Bilangan Real",
+          "Bilangan real terdiri dari rasional dan irasional. Rasional dapat ditulis a/b dengan b bukan nol; irasional tidak dapat ditulis sebagai pecahan dua bilangan bulat.",
+          "0,75 = 3/4 rasional; √2 irasional.",
+          "Bilangan real terdiri dari rasional dan irasional."
+        ],
+        [
+          "Membandingkan Bilangan",
+          "Pada garis bilangan, angka lebih ke kanan nilainya lebih besar. Pecahan dapat dibandingkan dengan menyamakan penyebut atau mengubah ke desimal.",
+          "2/3 ≈ 0,667, jadi 2/3 > 0,6.",
+          "Posisi lebih kanan berarti lebih besar."
+        ],
+        [
+          "Operasi Bilangan",
+          "Kerjakan operasi dalam kurung lebih dahulu, lalu kali/bagi, kemudian tambah/kurang.",
+          "18 − 2 × 5 = 18 − 10 = 8.",
+          "Urutan operasi: kurung, kali/bagi, tambah/kurang."
+        ],
+        [
+          "Faktor dan Faktorisasi Prima",
+          "Faktor membagi habis suatu bilangan. Faktorisasi prima menulis bilangan sebagai perkalian bilangan prima.",
+          "24 = 2 × 2 × 2 × 3 = 2³ × 3.",
+          "Faktorisasi prima hanya memakai faktor prima."
+        ],
+        [
+          "Rasio dan Proporsi",
+          "Rasio membandingkan dua besaran. Proporsi menyatakan dua rasio yang nilainya sama.",
+          "2 : 3 setara dengan 4 : 6.",
+          "Kalikan kedua bagian rasio dengan bilangan sama."
+        ],
+        [
+          "Perbandingan Senilai",
+          "Dua besaran berbanding senilai jika satu bertambah, yang lain juga bertambah dengan faktor sama.",
+          "3 buku Rp18.000, maka 5 buku Rp30.000.",
+          "Pada perbandingan senilai, rasio pasangan tetap."
+        ],
+        [
+          "Perbandingan Berbalik Nilai",
+          "Dua besaran berbanding terbalik jika satu bertambah, yang lain berkurang sehingga hasil kalinya tetap.",
+          "4 pekerja selesai 6 hari; 8 pekerja perlu 3 hari.",
+          "Pada perbandingan berbalik nilai, hasil kali tetap."
+        ],
+        [
+          "Notasi Ilmiah",
+          "Notasi ilmiah menulis bilangan sebagai a × 10ⁿ, dengan 1 ≤ |a| < 10. Cara ini memudahkan penulisan bilangan yang sangat besar atau sangat kecil.",
+          "4.500.000 = 4,5 × 10⁶.",
+          "Geser koma sampai hanya satu angka bukan nol di depan koma; hitung banyak geseran sebagai pangkat 10."
+        ],
+        [
+          "Estimasi dan Masalah Sehari-hari",
+          "Estimasi adalah perkiraan yang masuk akal, bukan hasil yang harus selalu tepat. Bulatkan bilangan sesuai kebutuhan sebelum menghitung.",
+          "Harga Rp19.800 + Rp30.200 dapat diperkirakan Rp20.000 + Rp30.000 = Rp50.000.",
+          "Pilih pembulatan yang membuat hitungan mudah tetapi tetap dekat dengan nilai sebenarnya."
+        ]
+      ]
+    },
+    {
+      "id": "aljabar",
+      "name": "Aljabar",
+      "icon": "🧩",
+      "desc": "Simbol, persamaan, fungsi, dan pola.",
+      "units": [
+        [
+          "Bentuk Aljabar",
+          "Variabel adalah simbol pengganti bilangan. Koefisien adalah angka pengali variabel; konstanta tidak memuat variabel.",
+          "Pada 5x + 3, variabel x, koefisien 5, konstanta 3.",
+          "Suku sejenis memiliki variabel dan pangkat sama."
+        ],
+        [
+          "Operasi Bentuk Aljabar",
+          "Suku sejenis dapat dijumlahkan atau dikurangkan dengan mengoperasikan koefisiennya.",
+          "3x + 2x − 4 = 5x − 4.",
+          "Gabungkan hanya suku sejenis."
+        ],
+        [
+          "Persamaan Linear Satu Variabel",
+          "Persamaan memiliki tanda sama dengan. Lakukan operasi yang sama pada kedua ruas.",
+          "x + 7 = 12. Kurangi 7 pada kedua ruas, maka x = 5.",
+          "Buat variabel berdiri sendiri."
+        ],
+        [
+          "Pertidaksamaan Linear",
+          "Pertidaksamaan memakai tanda <, >, ≤, atau ≥. Jika kedua ruas dikali/dibagi bilangan negatif, arah tanda berbalik.",
+          "2x < 10 berarti x < 5.",
+          "Balik tanda jika dikali/dibagi bilangan negatif."
+        ],
+        [
+          "Sistem Persamaan Linear Dua Variabel",
+          "SPLDV memiliki dua persamaan dan dua variabel. Solusi adalah pasangan nilai yang memenuhi keduanya.",
+          "x+y=7 dan x−y=1 menghasilkan x=4, y=3.",
+          "Substitusi dan eliminasi adalah metode penyelesaian."
+        ],
+        [
+          "Relasi dan Fungsi",
+          "Fungsi memasangkan setiap anggota domain tepat satu kali ke kodomain. Range adalah hasil yang benar-benar muncul.",
+          "f(x)=2x, domain {1,2,3}, range {2,4,6}.",
+          "Satu input fungsi hanya memiliki satu output."
+        ],
+        [
+          "Barisan dan Deret",
+          "Barisan aritmetika memiliki beda tetap. Rumus suku ke-n: Un = a + (n−1)b.",
+          "3, 7, 11, 15 memiliki beda 4; U5 = 19.",
+          "Cari beda tetap sebelum menentukan rumus."
+        ],
+        [
+          "Distributif dan Pemfaktoran",
+          "Sifat distributif menyebarkan perkalian ke setiap suku di dalam kurung. Pemfaktoran adalah kebalikannya: mengubah penjumlahan menjadi perkalian.",
+          "3(x+2)=3x+6 dan 4x+8=4(x+2).",
+          "Kalikan faktor ke setiap suku, atau cari faktor persekutuan terbesar untuk memfaktorkan."
+        ],
+        [
+          "Deret Aritmetika",
+          "Deret aritmetika adalah jumlah suku-suku barisan aritmetika. Jumlah n suku pertama: Sn = n/2 × (a + Un).",
+          "Barisan 2, 5, 8, 11. Jumlah 4 suku = 2+5+8+11 = 26.",
+          "Tentukan suku pertama dan suku ke-n sebelum memakai rumus jumlah."
+        ]
+      ]
+    },
+    {
+      "id": "geometri",
+      "name": "Geometri & Pengukuran",
+      "icon": "📐",
+      "desc": "Bentuk, ruang, ukuran, dan transformasi.",
+      "units": [
+        [
+          "Sudut dan Garis",
+          "Sudut berpelurus jumlahnya 180°. Sudut bertolak belakang sama besar. Pada garis sejajar, sudut sehadap sama besar.",
+          "Jika satu sudut berpelurus 65°, sudut lainnya 115°.",
+          "Gunakan hubungan sudut sebelum menghitung."
+        ],
+        [
+          "Teorema Pythagoras",
+          "Pada segitiga siku-siku, c² = a² + b²; c adalah sisi miring.",
+          "Sisi siku-siku 3 dan 4, maka c=√25=5.",
+          "Sisi miring berhadapan dengan sudut 90°."
+        ],
+        [
+          "Kesebangunan dan Kekongruenan",
+          "Bangun sebangun memiliki sudut bersesuaian sama dan sisi sebanding. Bangun kongruen memiliki bentuk dan ukuran sama.",
+          "Segitiga 3,4,5 sebangun dengan 6,8,10.",
+          "Sebangun: bentuk sama; kongruen: bentuk dan ukuran sama."
+        ],
+        [
+          "Transformasi Geometri",
+          "Translasi menggeser, refleksi mencerminkan, rotasi memutar, dilatasi memperbesar atau memperkecil.",
+          "Translasi (x,y) oleh (a,b) menjadi (x+a,y+b).",
+          "Perhatikan aturan koordinat tiap transformasi."
+        ],
+        [
+          "Keliling dan Luas",
+          "Keliling adalah panjang seluruh sisi. Luas mengukur daerah di dalam bangun.",
+          "Persegi sisi 5 cm: K=20 cm dan L=25 cm².",
+          "Keliling satuan panjang; luas satuan persegi."
+        ],
+        [
+          "Volume Bangun Ruang",
+          "Volume prisma = luas alas × tinggi. Limas = ⅓ × luas alas × tinggi. Bola = ⁴⁄₃πr³.",
+          "Prisma luas alas 12 cm² dan tinggi 5 cm memiliki volume 60 cm³.",
+          "Pastikan satuan volume adalah kubik."
+        ],
+        [
+          "Jaring-jaring Bangun Ruang",
+          "Jaring-jaring adalah susunan sisi bangun ruang yang dapat dilipat menjadi bentuk tiga dimensi. Setiap sisi harus tersambung dengan tepat.",
+          "Jaring-jaring kubus terdiri dari 6 persegi yang tersusun dan dapat dilipat menjadi kubus.",
+          "Hitung jumlah sisi dan bayangkan sisi mana yang saling bertemu saat dilipat."
+        ],
+        [
+          "Volume Bola",
+          "Volume bola dihitung dengan V = 4/3 × π × r³. Gunakan π sekitar 3,14 atau 22/7 sesuai petunjuk soal.",
+          "Jika r=3 cm dan π=3,14, V≈4/3×3,14×27=113,04 cm³.",
+          "Pastikan jari-jari dipangkatkan tiga dan hasil memakai satuan kubik."
+        ]
+      ]
+    },
+    {
+      "id": "data",
+      "name": "Data & Peluang",
+      "icon": "📊",
+      "desc": "Mengolah informasi dan memahami kemungkinan.",
+      "units": [
+        [
+          "Mengumpulkan dan Menyajikan Data",
+          "Data dikumpulkan untuk menjawab pertanyaan statistik. Data dapat disajikan dalam tabel, diagram batang, garis, atau lingkaran.",
+          "Diagram batang cocok membandingkan jumlah antar kategori.",
+          "Pilih penyajian sesuai tujuan dan jenis data."
+        ],
+        [
+          "Mean, Median, Modus, dan Jangkauan",
+          "Mean adalah rata-rata, median nilai tengah setelah diurutkan, modus nilai paling sering, dan jangkauan nilai terbesar dikurangi terkecil.",
+          "Data 2,3,3,8: mean 4; median 3; modus 3; jangkauan 6.",
+          "Urutkan data sebelum mencari median."
+        ],
+        [
+          "Membandingkan dan Menafsirkan Data",
+          "Bandingkan pusat data, sebaran, dan pola. Jangan menarik kesimpulan yang tidak didukung data.",
+          "Rata-rata kelas A lebih tinggi belum tentu semua nilai siswa A lebih tinggi.",
+          "Perhatikan konteks dan penyebaran data."
+        ],
+        [
+          "Ruang Sampel dan Peluang",
+          "Ruang sampel berisi semua hasil mungkin. Peluang = hasil yang diinginkan dibagi seluruh hasil jika sama mungkin.",
+          "Peluang angka genap pada dadu = 3/6 = 1/2.",
+          "Peluang berada antara 0 dan 1."
+        ],
+        [
+          "Frekuensi Relatif",
+          "Frekuensi relatif adalah banyak kemunculan kejadian dibagi jumlah percobaan.",
+          "Muncul gambar 28 kali dari 50 lemparan: 28/50 = 0,56.",
+          "Hasil percobaan acak dapat berubah-ubah."
+        ],
+        [
+          "Membaca Diagram dan Tabel",
+          "Tabel dan diagram menyajikan data secara ringkas. Baca judul, label, skala, dan satuan sebelum membandingkan nilai.",
+          "Jika diagram batang menunjukkan 12 siswa memilih sepak bola dan 8 memilih basket, selisihnya 4 siswa.",
+          "Perhatikan skala sumbu agar tidak salah membaca perbedaan."
+        ]
+      ]
+    }
+  ],
+  "levels": [
+    {
+      "id": "bilangan-1",
+      "world": "bilangan",
+      "title": "Bilangan Real",
+      "lesson": "Bilangan real terdiri dari rasional dan irasional. Rasional dapat ditulis a/b dengan b bukan nol; irasional tidak dapat ditulis sebagai pecahan dua bilangan bulat.",
+      "example": "0,75 = 3/4 rasional; √2 irasional.",
+      "recap": "Bilangan real terdiri dari rasional dan irasional.",
+      "xp": 20,
+      "duration": 8,
+      "objective": "Memahami bilangan real dan menerapkannya pada soal sederhana.",
+      "difficulty": "Dasar"
+    },
+    {
+      "id": "bilangan-2",
+      "world": "bilangan",
+      "title": "Membandingkan Bilangan",
+      "lesson": "Pada garis bilangan, angka lebih ke kanan nilainya lebih besar. Pecahan dapat dibandingkan dengan menyamakan penyebut atau mengubah ke desimal.",
+      "example": "2/3 ≈ 0,667, jadi 2/3 > 0,6.",
+      "recap": "Posisi lebih kanan berarti lebih besar.",
+      "xp": 20,
+      "duration": 8,
+      "objective": "Memahami membandingkan bilangan dan menerapkannya pada soal sederhana.",
+      "difficulty": "Dasar"
+    },
+    {
+      "id": "bilangan-3",
+      "world": "bilangan",
+      "title": "Operasi Bilangan",
+      "lesson": "Kerjakan operasi dalam kurung lebih dahulu, lalu kali/bagi, kemudian tambah/kurang.",
+      "example": "18 − 2 × 5 = 18 − 10 = 8.",
+      "recap": "Urutan operasi: kurung, kali/bagi, tambah/kurang.",
+      "xp": 20,
+      "duration": 8,
+      "objective": "Memahami operasi bilangan dan menerapkannya pada soal sederhana.",
+      "difficulty": "Menengah"
+    },
+    {
+      "id": "bilangan-4",
+      "world": "bilangan",
+      "title": "Faktor dan Faktorisasi Prima",
+      "lesson": "Faktor membagi habis suatu bilangan. Faktorisasi prima menulis bilangan sebagai perkalian bilangan prima.",
+      "example": "24 = 2 × 2 × 2 × 3 = 2³ × 3.",
+      "recap": "Faktorisasi prima hanya memakai faktor prima.",
+      "xp": 20,
+      "duration": 8,
+      "objective": "Memahami faktor dan faktorisasi prima dan menerapkannya pada soal sederhana.",
+      "difficulty": "Menengah"
+    },
+    {
+      "id": "bilangan-5",
+      "world": "bilangan",
+      "title": "Rasio dan Proporsi",
+      "lesson": "Rasio membandingkan dua besaran. Proporsi menyatakan dua rasio yang nilainya sama.",
+      "example": "2 : 3 setara dengan 4 : 6.",
+      "recap": "Kalikan kedua bagian rasio dengan bilangan sama.",
+      "xp": 20,
+      "duration": 8,
+      "objective": "Memahami rasio dan proporsi dan menerapkannya pada soal sederhana.",
+      "difficulty": "Menengah"
+    },
+    {
+      "id": "bilangan-6",
+      "world": "bilangan",
+      "title": "Perbandingan Senilai",
+      "lesson": "Dua besaran berbanding senilai jika satu bertambah, yang lain juga bertambah dengan faktor sama.",
+      "example": "3 buku Rp18.000, maka 5 buku Rp30.000.",
+      "recap": "Pada perbandingan senilai, rasio pasangan tetap.",
+      "xp": 20,
+      "duration": 8,
+      "objective": "Memahami perbandingan senilai dan menerapkannya pada soal sederhana.",
+      "difficulty": "Menengah"
+    },
+    {
+      "id": "bilangan-7",
+      "world": "bilangan",
+      "title": "Perbandingan Berbalik Nilai",
+      "lesson": "Dua besaran berbanding terbalik jika satu bertambah, yang lain berkurang sehingga hasil kalinya tetap.",
+      "example": "4 pekerja selesai 6 hari; 8 pekerja perlu 3 hari.",
+      "recap": "Pada perbandingan berbalik nilai, hasil kali tetap.",
+      "xp": 20,
+      "duration": 8,
+      "objective": "Memahami perbandingan berbalik nilai dan menerapkannya pada soal sederhana.",
+      "difficulty": "Menengah"
+    },
+    {
+      "id": "aljabar-1",
+      "world": "aljabar",
+      "title": "Bentuk Aljabar",
+      "lesson": "Variabel adalah simbol pengganti bilangan. Koefisien adalah angka pengali variabel; konstanta tidak memuat variabel.",
+      "example": "Pada 5x + 3, variabel x, koefisien 5, konstanta 3.",
+      "recap": "Suku sejenis memiliki variabel dan pangkat sama.",
+      "xp": 20,
+      "duration": 8,
+      "objective": "Memahami bentuk aljabar dan menerapkannya pada soal sederhana.",
+      "difficulty": "Dasar"
+    },
+    {
+      "id": "aljabar-2",
+      "world": "aljabar",
+      "title": "Operasi Bentuk Aljabar",
+      "lesson": "Suku sejenis dapat dijumlahkan atau dikurangkan dengan mengoperasikan koefisiennya.",
+      "example": "3x + 2x − 4 = 5x − 4.",
+      "recap": "Gabungkan hanya suku sejenis.",
+      "xp": 20,
+      "duration": 8,
+      "objective": "Memahami operasi bentuk aljabar dan menerapkannya pada soal sederhana.",
+      "difficulty": "Dasar"
+    },
+    {
+      "id": "aljabar-3",
+      "world": "aljabar",
+      "title": "Persamaan Linear Satu Variabel",
+      "lesson": "Persamaan memiliki tanda sama dengan. Lakukan operasi yang sama pada kedua ruas.",
+      "example": "x + 7 = 12. Kurangi 7 pada kedua ruas, maka x = 5.",
+      "recap": "Buat variabel berdiri sendiri.",
+      "xp": 20,
+      "duration": 8,
+      "objective": "Memahami persamaan linear satu variabel dan menerapkannya pada soal sederhana.",
+      "difficulty": "Menengah"
+    },
+    {
+      "id": "aljabar-4",
+      "world": "aljabar",
+      "title": "Pertidaksamaan Linear",
+      "lesson": "Pertidaksamaan memakai tanda <, >, ≤, atau ≥. Jika kedua ruas dikali/dibagi bilangan negatif, arah tanda berbalik.",
+      "example": "2x < 10 berarti x < 5.",
+      "recap": "Balik tanda jika dikali/dibagi bilangan negatif.",
+      "xp": 20,
+      "duration": 8,
+      "objective": "Memahami pertidaksamaan linear dan menerapkannya pada soal sederhana.",
+      "difficulty": "Menengah"
+    },
+    {
+      "id": "aljabar-5",
+      "world": "aljabar",
+      "title": "Sistem Persamaan Linear Dua Variabel",
+      "lesson": "SPLDV memiliki dua persamaan dan dua variabel. Solusi adalah pasangan nilai yang memenuhi keduanya.",
+      "example": "x+y=7 dan x−y=1 menghasilkan x=4, y=3.",
+      "recap": "Substitusi dan eliminasi adalah metode penyelesaian.",
+      "xp": 20,
+      "duration": 8,
+      "objective": "Memahami sistem persamaan linear dua variabel dan menerapkannya pada soal sederhana.",
+      "difficulty": "Menengah"
+    },
+    {
+      "id": "aljabar-6",
+      "world": "aljabar",
+      "title": "Relasi dan Fungsi",
+      "lesson": "Fungsi memasangkan setiap anggota domain tepat satu kali ke kodomain. Range adalah hasil yang benar-benar muncul.",
+      "example": "f(x)=2x, domain {1,2,3}, range {2,4,6}.",
+      "recap": "Satu input fungsi hanya memiliki satu output.",
+      "xp": 20,
+      "duration": 8,
+      "objective": "Memahami relasi dan fungsi dan menerapkannya pada soal sederhana.",
+      "difficulty": "Menengah"
+    },
+    {
+      "id": "aljabar-7",
+      "world": "aljabar",
+      "title": "Barisan dan Deret",
+      "lesson": "Barisan aritmetika memiliki beda tetap. Rumus suku ke-n: Un = a + (n−1)b.",
+      "example": "3, 7, 11, 15 memiliki beda 4; U5 = 19.",
+      "recap": "Cari beda tetap sebelum menentukan rumus.",
+      "xp": 20,
+      "duration": 8,
+      "objective": "Memahami barisan dan deret dan menerapkannya pada soal sederhana.",
+      "difficulty": "Menengah"
+    },
+    {
+      "id": "geometri-1",
+      "world": "geometri",
+      "title": "Sudut dan Garis",
+      "lesson": "Sudut berpelurus jumlahnya 180°. Sudut bertolak belakang sama besar. Pada garis sejajar, sudut sehadap sama besar.",
+      "example": "Jika satu sudut berpelurus 65°, sudut lainnya 115°.",
+      "recap": "Gunakan hubungan sudut sebelum menghitung.",
+      "xp": 20,
+      "duration": 8,
+      "objective": "Memahami sudut dan garis dan menerapkannya pada soal sederhana.",
+      "difficulty": "Dasar"
+    },
+    {
+      "id": "geometri-2",
+      "world": "geometri",
+      "title": "Teorema Pythagoras",
+      "lesson": "Pada segitiga siku-siku, c² = a² + b²; c adalah sisi miring.",
+      "example": "Sisi siku-siku 3 dan 4, maka c=√25=5.",
+      "recap": "Sisi miring berhadapan dengan sudut 90°.",
+      "xp": 20,
+      "duration": 8,
+      "objective": "Memahami teorema pythagoras dan menerapkannya pada soal sederhana.",
+      "difficulty": "Dasar"
+    },
+    {
+      "id": "geometri-3",
+      "world": "geometri",
+      "title": "Kesebangunan dan Kekongruenan",
+      "lesson": "Bangun sebangun memiliki sudut bersesuaian sama dan sisi sebanding. Bangun kongruen memiliki bentuk dan ukuran sama.",
+      "example": "Segitiga 3,4,5 sebangun dengan 6,8,10.",
+      "recap": "Sebangun: bentuk sama; kongruen: bentuk dan ukuran sama.",
+      "xp": 20,
+      "duration": 8,
+      "objective": "Memahami kesebangunan dan kekongruenan dan menerapkannya pada soal sederhana.",
+      "difficulty": "Menengah"
+    },
+    {
+      "id": "geometri-4",
+      "world": "geometri",
+      "title": "Transformasi Geometri",
+      "lesson": "Translasi menggeser, refleksi mencerminkan, rotasi memutar, dilatasi memperbesar atau memperkecil.",
+      "example": "Translasi (x,y) oleh (a,b) menjadi (x+a,y+b).",
+      "recap": "Perhatikan aturan koordinat tiap transformasi.",
+      "xp": 20,
+      "duration": 8,
+      "objective": "Memahami transformasi geometri dan menerapkannya pada soal sederhana.",
+      "difficulty": "Menengah"
+    },
+    {
+      "id": "geometri-5",
+      "world": "geometri",
+      "title": "Keliling dan Luas",
+      "lesson": "Keliling adalah panjang seluruh sisi. Luas mengukur daerah di dalam bangun.",
+      "example": "Persegi sisi 5 cm: K=20 cm dan L=25 cm².",
+      "recap": "Keliling satuan panjang; luas satuan persegi.",
+      "xp": 20,
+      "duration": 8,
+      "objective": "Memahami keliling dan luas dan menerapkannya pada soal sederhana.",
+      "difficulty": "Menengah"
+    },
+    {
+      "id": "geometri-6",
+      "world": "geometri",
+      "title": "Volume Bangun Ruang",
+      "lesson": "Volume prisma = luas alas × tinggi. Limas = ⅓ × luas alas × tinggi. Bola = ⁴⁄₃πr³.",
+      "example": "Prisma luas alas 12 cm² dan tinggi 5 cm memiliki volume 60 cm³.",
+      "recap": "Pastikan satuan volume adalah kubik.",
+      "xp": 20,
+      "duration": 8,
+      "objective": "Memahami volume bangun ruang dan menerapkannya pada soal sederhana.",
+      "difficulty": "Menengah"
+    },
+    {
+      "id": "data-1",
+      "world": "data",
+      "title": "Mengumpulkan dan Menyajikan Data",
+      "lesson": "Data dikumpulkan untuk menjawab pertanyaan statistik. Data dapat disajikan dalam tabel, diagram batang, garis, atau lingkaran.",
+      "example": "Diagram batang cocok membandingkan jumlah antar kategori.",
+      "recap": "Pilih penyajian sesuai tujuan dan jenis data.",
+      "xp": 20,
+      "duration": 8,
+      "objective": "Memahami mengumpulkan dan menyajikan data dan menerapkannya pada soal sederhana.",
+      "difficulty": "Dasar"
+    },
+    {
+      "id": "data-2",
+      "world": "data",
+      "title": "Mean, Median, Modus, dan Jangkauan",
+      "lesson": "Mean adalah rata-rata, median nilai tengah setelah diurutkan, modus nilai paling sering, dan jangkauan nilai terbesar dikurangi terkecil.",
+      "example": "Data 2,3,3,8: mean 4; median 3; modus 3; jangkauan 6.",
+      "recap": "Urutkan data sebelum mencari median.",
+      "xp": 20,
+      "duration": 8,
+      "objective": "Memahami mean, median, modus, dan jangkauan dan menerapkannya pada soal sederhana.",
+      "difficulty": "Dasar"
+    },
+    {
+      "id": "data-3",
+      "world": "data",
+      "title": "Membandingkan dan Menafsirkan Data",
+      "lesson": "Bandingkan pusat data, sebaran, dan pola. Jangan menarik kesimpulan yang tidak didukung data.",
+      "example": "Rata-rata kelas A lebih tinggi belum tentu semua nilai siswa A lebih tinggi.",
+      "recap": "Perhatikan konteks dan penyebaran data.",
+      "xp": 20,
+      "duration": 8,
+      "objective": "Memahami membandingkan dan menafsirkan data dan menerapkannya pada soal sederhana.",
+      "difficulty": "Menengah"
+    },
+    {
+      "id": "data-4",
+      "world": "data",
+      "title": "Ruang Sampel dan Peluang",
+      "lesson": "Ruang sampel berisi semua hasil mungkin. Peluang = hasil yang diinginkan dibagi seluruh hasil jika sama mungkin.",
+      "example": "Peluang angka genap pada dadu = 3/6 = 1/2.",
+      "recap": "Peluang berada antara 0 dan 1.",
+      "xp": 20,
+      "duration": 8,
+      "objective": "Memahami ruang sampel dan peluang dan menerapkannya pada soal sederhana.",
+      "difficulty": "Menengah"
+    },
+    {
+      "id": "data-5",
+      "world": "data",
+      "title": "Frekuensi Relatif",
+      "lesson": "Frekuensi relatif adalah banyak kemunculan kejadian dibagi jumlah percobaan.",
+      "example": "Muncul gambar 28 kali dari 50 lemparan: 28/50 = 0,56.",
+      "recap": "Hasil percobaan acak dapat berubah-ubah.",
+      "xp": 20,
+      "duration": 8,
+      "objective": "Memahami frekuensi relatif dan menerapkannya pada soal sederhana.",
+      "difficulty": "Menengah"
+    },
+    {
+      "id": "bilangan-8",
+      "world": "bilangan",
+      "title": "Notasi Ilmiah",
+      "lesson": "Notasi ilmiah menulis bilangan sebagai a × 10ⁿ, dengan 1 ≤ |a| < 10. Cara ini memudahkan penulisan bilangan yang sangat besar atau sangat kecil.",
+      "example": "4.500.000 = 4,5 × 10⁶.",
+      "recap": "Geser koma sampai hanya satu angka bukan nol di depan koma; hitung banyak geseran sebagai pangkat 10.",
+      "xp": 25,
+      "duration": 9,
+      "objective": "Memahami notasi ilmiah dan menggunakannya untuk menyelesaikan soal.",
+      "difficulty": "Menengah"
+    },
+    {
+      "id": "bilangan-9",
+      "world": "bilangan",
+      "title": "Estimasi dan Masalah Sehari-hari",
+      "lesson": "Estimasi adalah perkiraan yang masuk akal, bukan hasil yang harus selalu tepat. Bulatkan bilangan sesuai kebutuhan sebelum menghitung.",
+      "example": "Harga Rp19.800 + Rp30.200 dapat diperkirakan Rp20.000 + Rp30.000 = Rp50.000.",
+      "recap": "Pilih pembulatan yang membuat hitungan mudah tetapi tetap dekat dengan nilai sebenarnya.",
+      "xp": 25,
+      "duration": 9,
+      "objective": "Memahami estimasi dan masalah sehari-hari dan menggunakannya untuk menyelesaikan soal.",
+      "difficulty": "Menengah"
+    },
+    {
+      "id": "aljabar-8",
+      "world": "aljabar",
+      "title": "Distributif dan Pemfaktoran",
+      "lesson": "Sifat distributif menyebarkan perkalian ke setiap suku di dalam kurung. Pemfaktoran adalah kebalikannya: mengubah penjumlahan menjadi perkalian.",
+      "example": "3(x+2)=3x+6 dan 4x+8=4(x+2).",
+      "recap": "Kalikan faktor ke setiap suku, atau cari faktor persekutuan terbesar untuk memfaktorkan.",
+      "xp": 25,
+      "duration": 9,
+      "objective": "Memahami distributif dan pemfaktoran dan menggunakannya untuk menyelesaikan soal.",
+      "difficulty": "Menengah"
+    },
+    {
+      "id": "aljabar-9",
+      "world": "aljabar",
+      "title": "Deret Aritmetika",
+      "lesson": "Deret aritmetika adalah jumlah suku-suku barisan aritmetika. Jumlah n suku pertama: Sn = n/2 × (a + Un).",
+      "example": "Barisan 2, 5, 8, 11. Jumlah 4 suku = 2+5+8+11 = 26.",
+      "recap": "Tentukan suku pertama dan suku ke-n sebelum memakai rumus jumlah.",
+      "xp": 25,
+      "duration": 9,
+      "objective": "Memahami deret aritmetika dan menggunakannya untuk menyelesaikan soal.",
+      "difficulty": "Menengah"
+    },
+    {
+      "id": "geometri-7",
+      "world": "geometri",
+      "title": "Jaring-jaring Bangun Ruang",
+      "lesson": "Jaring-jaring adalah susunan sisi bangun ruang yang dapat dilipat menjadi bentuk tiga dimensi. Setiap sisi harus tersambung dengan tepat.",
+      "example": "Jaring-jaring kubus terdiri dari 6 persegi yang tersusun dan dapat dilipat menjadi kubus.",
+      "recap": "Hitung jumlah sisi dan bayangkan sisi mana yang saling bertemu saat dilipat.",
+      "xp": 25,
+      "duration": 9,
+      "objective": "Memahami jaring-jaring bangun ruang dan menggunakannya untuk menyelesaikan soal.",
+      "difficulty": "Menengah"
+    },
+    {
+      "id": "geometri-8",
+      "world": "geometri",
+      "title": "Volume Bola",
+      "lesson": "Volume bola dihitung dengan V = 4/3 × π × r³. Gunakan π sekitar 3,14 atau 22/7 sesuai petunjuk soal.",
+      "example": "Jika r=3 cm dan π=3,14, V≈4/3×3,14×27=113,04 cm³.",
+      "recap": "Pastikan jari-jari dipangkatkan tiga dan hasil memakai satuan kubik.",
+      "xp": 25,
+      "duration": 9,
+      "objective": "Memahami volume bola dan menggunakannya untuk menyelesaikan soal.",
+      "difficulty": "Menengah"
+    },
+    {
+      "id": "data-6",
+      "world": "data",
+      "title": "Membaca Diagram dan Tabel",
+      "lesson": "Tabel dan diagram menyajikan data secara ringkas. Baca judul, label, skala, dan satuan sebelum membandingkan nilai.",
+      "example": "Jika diagram batang menunjukkan 12 siswa memilih sepak bola dan 8 memilih basket, selisihnya 4 siswa.",
+      "recap": "Perhatikan skala sumbu agar tidak salah membaca perbedaan.",
+      "xp": 25,
+      "duration": 9,
+      "objective": "Memahami membaca diagram dan tabel dan menggunakannya untuk menyelesaikan soal.",
+      "difficulty": "Menengah"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "level": "bilangan-1",
+      "q": "Manakah bilangan irasional?",
+      "opts": [
+        "0,5",
+        "3/4",
+        "√2",
+        "−7"
+      ],
+      "a": 2,
+      "why": "√2 tidak dapat dinyatakan sebagai pecahan dua bilangan bulat."
+    },
+    {
+      "id": "q2",
+      "level": "bilangan-2",
+      "q": "Manakah yang lebih besar?",
+      "opts": [
+        "0,6",
+        "2/3",
+        "Sama",
+        "Tidak dapat dibandingkan"
+      ],
+      "a": 1,
+      "why": "2/3 ≈ 0,667, lebih besar daripada 0,6."
+    },
+    {
+      "id": "bilangan-3-q5",
+      "level": "bilangan-3",
+      "q": "Hasil 50 − (6 × 4) + 3 adalah ...",
+      "opts": [
+        "23",
+        "26",
+        "29",
+        "35"
+      ],
+      "a": 2,
+      "why": "Kerjakan perkalian dalam kurung dahulu: 6 × 4 = 24. Lalu 50 − 24 + 3 = 26 + 3 = 29."
+    },
+    {
+      "id": "q4",
+      "level": "bilangan-4",
+      "q": "Faktorisasi prima 24 adalah ...",
+      "opts": [
+        "2 × 3 × 4",
+        "2³ × 3",
+        "2 × 12",
+        "4 × 6"
+      ],
+      "a": 1,
+      "why": "24 = 2 × 2 × 2 × 3."
+    },
+    {
+      "id": "q5",
+      "level": "bilangan-6",
+      "q": "4 pensil Rp8.000. Harga 7 pensil?",
+      "opts": [
+        "Rp12.000",
+        "Rp14.000",
+        "Rp16.000",
+        "Rp18.000"
+      ],
+      "a": 1,
+      "why": "Satu pensil Rp2.000, jadi tujuh Rp14.000."
+    },
+    {
+      "id": "q6",
+      "level": "aljabar-1",
+      "q": "Koefisien x pada 7x + 4 adalah ...",
+      "opts": [
+        "x",
+        "4",
+        "7",
+        "11"
+      ],
+      "a": 2,
+      "why": "Koefisien adalah angka pengali variabel."
+    },
+    {
+      "id": "q7",
+      "level": "aljabar-2",
+      "q": "Sederhanakan 4a + 3a − 2.",
+      "opts": [
+        "7a − 2",
+        "7a + 2",
+        "a − 2",
+        "12a"
+      ],
+      "a": 0,
+      "why": "4a dan 3a suku sejenis, menjadi 7a."
+    },
+    {
+      "id": "q8",
+      "level": "aljabar-3",
+      "q": "Jika x + 9 = 15, nilai x ...",
+      "opts": [
+        "24",
+        "6",
+        "9",
+        "15"
+      ],
+      "a": 1,
+      "why": "Kurangi kedua ruas dengan 9."
+    },
+    {
+      "id": "q9",
+      "level": "aljabar-5",
+      "q": "Jika x+y=9 dan x−y=3, pasangan (x,y)?",
+      "opts": [
+        "(5,4)",
+        "(6,3)",
+        "(3,6)",
+        "(7,2)"
+      ],
+      "a": 1,
+      "why": "Jumlahkan persamaan: 2x=12, x=6 dan y=3."
+    },
+    {
+      "id": "q10",
+      "level": "geometri-1",
+      "q": "Sudut berpelurus dengan 72° adalah ...",
+      "opts": [
+        "72°",
+        "108°",
+        "118°",
+        "288°"
+      ],
+      "a": 1,
+      "why": "180° − 72° = 108°."
+    },
+    {
+      "id": "q11",
+      "level": "geometri-2",
+      "q": "Segitiga siku-siku dengan sisi 6 dan 8. Sisi miring?",
+      "opts": [
+        "10 cm",
+        "12 cm",
+        "14 cm",
+        "48 cm"
+      ],
+      "a": 0,
+      "why": "√(6²+8²) = √100 = 10 cm."
+    },
+    {
+      "id": "q12",
+      "level": "geometri-5",
+      "q": "Luas persegi panjang 9 cm × 4 cm?",
+      "opts": [
+        "13 cm²",
+        "26 cm²",
+        "36 cm²",
+        "36 cm"
+      ],
+      "a": 2,
+      "why": "Luas = panjang × lebar = 36 cm²."
+    },
+    {
+      "id": "q13",
+      "level": "data-2",
+      "q": "Median data 2, 4, 7, 9, 10 adalah ...",
+      "opts": [
+        "4",
+        "6",
+        "7",
+        "9"
+      ],
+      "a": 2,
+      "why": "Nilai tengah data yang sudah berurutan adalah 7."
+    },
+    {
+      "id": "q14",
+      "level": "data-4",
+      "q": "Peluang angka lebih dari 4 pada dadu fair?",
+      "opts": [
+        "1/6",
+        "1/3",
+        "1/2",
+        "2/3"
+      ],
+      "a": 1,
+      "why": "Hasil 5 dan 6: 2/6 = 1/3."
+    },
+    {
+      "id": "bilangan-1-v1",
+      "level": "bilangan-1",
+      "q": "Bilangan √9 termasuk ...",
+      "opts": [
+        "Irasional",
+        "Rasional",
+        "Bukan real",
+        "Bilangan imajiner"
+      ],
+      "a": 1,
+      "why": "√9 = 3, sehingga rasional."
+    },
+    {
+      "id": "bilangan-1-v2",
+      "level": "bilangan-1",
+      "q": "Bilangan 0,125 dapat ditulis sebagai ...",
+      "opts": [
+        "1/4",
+        "1/8",
+        "1/5",
+        "1/10"
+      ],
+      "a": 1,
+      "why": "0,125 = 125/1000 = 1/8."
+    },
+    {
+      "id": "bilangan-2-v1",
+      "level": "bilangan-2",
+      "q": "Urutan dari terkecil adalah ...",
+      "opts": [
+        "−2, 0, 1/2, 1",
+        "1, 1/2, 0, −2",
+        "0, −2, 1, 1/2",
+        "−2, 1, 0, 1/2"
+      ],
+      "a": 0,
+      "why": "Bilangan negatif lebih kecil dari nol, lalu pecahan 1/2, kemudian 1."
+    },
+    {
+      "id": "bilangan-2-v2",
+      "level": "bilangan-2",
+      "q": "Bentuk desimal dari 3/4 adalah ...",
+      "opts": [
+        "0,25",
+        "0,5",
+        "0,75",
+        "1,25"
+      ],
+      "a": 2,
+      "why": "3 dibagi 4 sama dengan 0,75."
+    },
+    {
+      "id": "bilangan-3-v1",
+      "level": "bilangan-3",
+      "q": "Hasil 24 ÷ 6 + 3 × 2 adalah ...",
+      "opts": [
+        "5",
+        "10",
+        "14",
+        "18"
+      ],
+      "a": 1,
+      "why": "Kerjakan bagi dan kali: 4 + 6 = 10."
+    },
+    {
+      "id": "bilangan-3-v2",
+      "level": "bilangan-3",
+      "q": "Hasil (12 − 4) × 3 adalah ...",
+      "opts": [
+        "20",
+        "24",
+        "28",
+        "36"
+      ],
+      "a": 1,
+      "why": "Kerjakan kurung dahulu: 8 × 3 = 24."
+    },
+    {
+      "id": "bilangan-4-v1",
+      "level": "bilangan-4",
+      "q": "FPB dari 18 dan 24 adalah ...",
+      "opts": [
+        "3",
+        "6",
+        "9",
+        "12"
+      ],
+      "a": 1,
+      "why": "Faktor bersama terbesar 18 dan 24 adalah 6."
+    },
+    {
+      "id": "bilangan-4-v2",
+      "level": "bilangan-4",
+      "q": "KPK dari 6 dan 8 adalah ...",
+      "opts": [
+        "12",
+        "18",
+        "24",
+        "48"
+      ],
+      "a": 2,
+      "why": "Kelipatan persekutuan terkecilnya 24."
+    },
+    {
+      "id": "bilangan-5-v1",
+      "level": "bilangan-5",
+      "q": "Rasio 6 : 9 dalam bentuk paling sederhana adalah ...",
+      "opts": [
+        "2 : 3",
+        "3 : 2",
+        "1 : 3",
+        "6 : 3"
+      ],
+      "a": 0,
+      "why": "Bagi kedua bagian dengan 3."
+    },
+    {
+      "id": "bilangan-5-v2",
+      "level": "bilangan-5",
+      "q": "Jika 3 : 5 = x : 20, nilai x adalah ...",
+      "opts": [
+        "8",
+        "10",
+        "12",
+        "15"
+      ],
+      "a": 2,
+      "why": "Faktor pengali 4, maka x = 3 × 4 = 12."
+    },
+    {
+      "id": "bilangan-6-v1",
+      "level": "bilangan-6",
+      "q": "2 kg apel seharga Rp30.000. Harga 5 kg adalah ...",
+      "opts": [
+        "Rp60.000",
+        "Rp65.000",
+        "Rp75.000",
+        "Rp90.000"
+      ],
+      "a": 2,
+      "why": "Harga per kg Rp15.000, jadi 5 kg Rp75.000."
+    },
+    {
+      "id": "bilangan-7-v1",
+      "level": "bilangan-7",
+      "q": "6 keran mengisi bak dalam 4 jam. Jika 3 keran sama besar, waktunya ...",
+      "opts": [
+        "2 jam",
+        "4 jam",
+        "6 jam",
+        "8 jam"
+      ],
+      "a": 3,
+      "why": "Jumlah keran setengah, waktu menjadi dua kali: 8 jam."
+    },
+    {
+      "id": "aljabar-1-v1",
+      "level": "aljabar-1",
+      "q": "Pada 9p − 6, konstantanya adalah ...",
+      "opts": [
+        "9",
+        "p",
+        "−6",
+        "9p"
+      ],
+      "a": 2,
+      "why": "Konstanta adalah suku tanpa variabel."
+    },
+    {
+      "id": "aljabar-1-v2",
+      "level": "aljabar-1",
+      "q": "Banyak suku pada 2x + 3y − 5 adalah ...",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "a": 2,
+      "why": "Sukunya 2x, 3y, dan −5."
+    },
+    {
+      "id": "aljabar-2-v1",
+      "level": "aljabar-2",
+      "q": "Sederhanakan 8m − 3m + 2 ...",
+      "opts": [
+        "5m + 2",
+        "11m + 2",
+        "5m − 2",
+        "m + 2"
+      ],
+      "a": 0,
+      "why": "8m − 3m = 5m."
+    },
+    {
+      "id": "aljabar-2-v2",
+      "level": "aljabar-2",
+      "q": "Hasil 3(x + 4) adalah ...",
+      "opts": [
+        "3x + 4",
+        "3x + 7",
+        "3x + 12",
+        "x + 12"
+      ],
+      "a": 2,
+      "why": "Gunakan sifat distributif: 3x + 12."
+    },
+    {
+      "id": "aljabar-3-v1",
+      "level": "aljabar-3",
+      "q": "Jika 3x = 21, nilai x adalah ...",
+      "opts": [
+        "6",
+        "7",
+        "8",
+        "18"
+      ],
+      "a": 1,
+      "why": "Bagi kedua ruas dengan 3."
+    },
+    {
+      "id": "aljabar-3-v2",
+      "level": "aljabar-3",
+      "q": "Jika 2x − 5 = 9, nilai x adalah ...",
+      "opts": [
+        "2",
+        "5",
+        "7",
+        "9"
+      ],
+      "a": 2,
+      "why": "Tambah 5: 2x=14, lalu x=7."
+    },
+    {
+      "id": "aljabar-4-v1",
+      "level": "aljabar-4",
+      "q": "Jika x + 3 > 8, maka ...",
+      "opts": [
+        "x > 5",
+        "x < 5",
+        "x > 11",
+        "x < 11"
+      ],
+      "a": 0,
+      "why": "Kurangi kedua ruas dengan 3."
+    },
+    {
+      "id": "aljabar-4-v2",
+      "level": "aljabar-4",
+      "q": "Jika −2x < 8, maka ...",
+      "opts": [
+        "x < −4",
+        "x > −4",
+        "x < 4",
+        "x > 4"
+      ],
+      "a": 1,
+      "why": "Bagi dengan −2 dan balik tanda menjadi x > −4."
+    },
+    {
+      "id": "aljabar-5-v1",
+      "level": "aljabar-5",
+      "q": "Jika x+y=10 dan x−y=2, nilai x adalah ...",
+      "opts": [
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "a": 2,
+      "why": "Jumlahkan persamaan: 2x=12, x=6."
+    },
+    {
+      "id": "aljabar-5-v2",
+      "level": "aljabar-5",
+      "q": "Harga 1 roti dan 1 susu Rp12.000. Dua roti dan 1 susu Rp17.000. Harga roti ...",
+      "opts": [
+        "Rp3.000",
+        "Rp5.000",
+        "Rp7.000",
+        "Rp12.000"
+      ],
+      "a": 1,
+      "why": "Selisih kedua total adalah harga satu roti: Rp5.000."
+    },
+    {
+      "id": "aljabar-6-v1",
+      "level": "aljabar-6",
+      "q": "Jika f(x)=3x dan x=4, maka f(4)= ...",
+      "opts": [
+        "7",
+        "9",
+        "12",
+        "16"
+      ],
+      "a": 2,
+      "why": "Masukkan x=4: 3 × 4 = 12."
+    },
+    {
+      "id": "aljabar-6-v2",
+      "level": "aljabar-6",
+      "q": "Domain adalah ...",
+      "opts": [
+        "Himpunan input",
+        "Himpunan hasil aktual",
+        "Himpunan grafik",
+        "Himpunan koefisien"
+      ],
+      "a": 0,
+      "why": "Domain adalah himpunan nilai masukan."
+    },
+    {
+      "id": "aljabar-7-v1",
+      "level": "aljabar-7",
+      "q": "Beda barisan 5, 9, 13, 17 adalah ...",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "a": 2,
+      "why": "Setiap suku bertambah 4."
+    },
+    {
+      "id": "aljabar-7-v2",
+      "level": "aljabar-7",
+      "q": "Suku ke-6 dari 2, 5, 8, 11, ... adalah ...",
+      "opts": [
+        "14",
+        "15",
+        "17",
+        "20"
+      ],
+      "a": 2,
+      "why": "a=2, beda=3; U6=2+5×3=17."
+    },
+    {
+      "id": "geometri-1-v1",
+      "level": "geometri-1",
+      "q": "Sudut bertolak belakang dengan 47° besarnya ...",
+      "opts": [
+        "43°",
+        "47°",
+        "133°",
+        "180°"
+      ],
+      "a": 1,
+      "why": "Sudut bertolak belakang sama besar."
+    },
+    {
+      "id": "geometri-1-v2",
+      "level": "geometri-1",
+      "q": "Jika sudut sehadap adalah 112°, sudut sehadap pasangannya ...",
+      "opts": [
+        "68°",
+        "90°",
+        "112°",
+        "180°"
+      ],
+      "a": 2,
+      "why": "Pada dua garis sejajar, sudut sehadap sama besar."
+    },
+    {
+      "id": "geometri-2-v1",
+      "level": "geometri-2",
+      "q": "Sisi miring segitiga siku-siku dengan sisi 5 dan 12 adalah ...",
+      "opts": [
+        "13",
+        "15",
+        "17",
+        "25"
+      ],
+      "a": 0,
+      "why": "√(25+144)=√169=13."
+    },
+    {
+      "id": "geometri-2-v2",
+      "level": "geometri-2",
+      "q": "Sisi miring 10 dan satu sisi siku-siku 6. Sisi lainnya ...",
+      "opts": [
+        "4",
+        "6",
+        "8",
+        "16"
+      ],
+      "a": 2,
+      "why": "√(100−36)=√64=8."
+    },
+    {
+      "id": "geometri-3-v1",
+      "level": "geometri-3",
+      "q": "Dua bangun kongruen memiliki ...",
+      "opts": [
+        "Bentuk sama saja",
+        "Ukuran sama saja",
+        "Bentuk dan ukuran sama",
+        "Keliling selalu berbeda"
+      ],
+      "a": 2,
+      "why": "Kongruen berarti sama bentuk dan ukuran."
+    },
+    {
+      "id": "geometri-3-v2",
+      "level": "geometri-3",
+      "q": "Faktor skala 2 membuat panjang sisi menjadi ...",
+      "opts": [
+        "Setengah",
+        "Dua kali",
+        "Tiga kali",
+        "Empat kali"
+      ],
+      "a": 1,
+      "why": "Dilatasi faktor 2 menggandakan panjang."
+    },
+    {
+      "id": "geometri-4-v1",
+      "level": "geometri-4",
+      "q": "Titik (2,−1) ditranslasi (3,4) menjadi ...",
+      "opts": [
+        "(5,3)",
+        "(−1,3)",
+        "(6,4)",
+        "(5,−5)"
+      ],
+      "a": 0,
+      "why": "Tambahkan koordinat: (2+3, −1+4)=(5,3)."
+    },
+    {
+      "id": "geometri-4-v2",
+      "level": "geometri-4",
+      "q": "Refleksi titik (3,−2) terhadap sumbu-x adalah ...",
+      "opts": [
+        "(−3,−2)",
+        "(3,2)",
+        "(−3,2)",
+        "(2,3)"
+      ],
+      "a": 1,
+      "why": "Refleksi sumbu-x mengubah tanda koordinat y."
+    },
+    {
+      "id": "geometri-5-v1",
+      "level": "geometri-5",
+      "q": "Keliling persegi dengan sisi 7 cm adalah ...",
+      "opts": [
+        "14 cm",
+        "21 cm",
+        "28 cm",
+        "49 cm"
+      ],
+      "a": 2,
+      "why": "Keliling = 4 × 7 = 28 cm."
+    },
+    {
+      "id": "geometri-5-v2",
+      "level": "geometri-5",
+      "q": "Luas segitiga alas 10 cm dan tinggi 6 cm adalah ...",
+      "opts": [
+        "16 cm²",
+        "30 cm²",
+        "60 cm²",
+        "120 cm²"
+      ],
+      "a": 1,
+      "why": "Luas = 1/2 × 10 × 6 = 30 cm²."
+    },
+    {
+      "id": "geometri-6-v1",
+      "level": "geometri-6",
+      "q": "Volume prisma dengan luas alas 15 cm² dan tinggi 4 cm adalah ...",
+      "opts": [
+        "19 cm³",
+        "30 cm³",
+        "60 cm³",
+        "75 cm³"
+      ],
+      "a": 2,
+      "why": "Volume prisma = luas alas × tinggi."
+    },
+    {
+      "id": "geometri-6-v2",
+      "level": "geometri-6",
+      "q": "Volume limas dengan luas alas 18 cm² dan tinggi 5 cm adalah ...",
+      "opts": [
+        "23 cm³",
+        "30 cm³",
+        "60 cm³",
+        "90 cm³"
+      ],
+      "a": 1,
+      "why": "Volume = 1/3 × 18 × 5 = 30 cm³."
+    },
+    {
+      "id": "data-1-v1",
+      "level": "data-1",
+      "q": "Diagram yang cocok menunjukkan perubahan suhu tiap jam adalah ...",
+      "opts": [
+        "Diagram garis",
+        "Diagram lingkaran",
+        "Piktogram saja",
+        "Tabel frekuensi saja"
+      ],
+      "a": 0,
+      "why": "Diagram garis efektif menunjukkan perubahan berurutan."
+    },
+    {
+      "id": "data-1-v2",
+      "level": "data-1",
+      "q": "Diagram lingkaran membagi data berdasarkan ...",
+      "opts": [
+        "Urutan abjad",
+        "Bagian dari keseluruhan",
+        "Nilai terkecil saja",
+        "Waktu saja"
+      ],
+      "a": 1,
+      "why": "Setiap sektor mewakili proporsi terhadap total."
+    },
+    {
+      "id": "data-2-v1",
+      "level": "data-2",
+      "q": "Mean dari 4, 6, 8, 10 adalah ...",
+      "opts": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "a": 1,
+      "why": "Jumlah 28 dibagi 4 = 7."
+    },
+    {
+      "id": "data-2-v2",
+      "level": "data-2",
+      "q": "Modus dari 2, 3, 3, 4, 5 adalah ...",
+      "opts": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "a": 1,
+      "why": "Angka 3 muncul paling sering."
+    },
+    {
+      "id": "data-3-v1",
+      "level": "data-3",
+      "q": "Data A: 5,5,5 dan B: 1,5,9. Pernyataan benar ...",
+      "opts": [
+        "Mean A lebih besar",
+        "Mean B lebih besar",
+        "Mean sama, sebaran berbeda",
+        "Semua nilai sama"
+      ],
+      "a": 2,
+      "why": "Keduanya mean 5, tetapi sebaran data B lebih lebar."
+    },
+    {
+      "id": "data-4-v1",
+      "level": "data-4",
+      "q": "Peluang muncul angka ganjil pada dadu fair adalah ...",
+      "opts": [
+        "1/6",
+        "1/3",
+        "1/2",
+        "2/3"
+      ],
+      "a": 2,
+      "why": "Ada tiga angka ganjil dari enam kemungkinan."
+    },
+    {
+      "id": "data-4-v2",
+      "level": "data-4",
+      "q": "Saat melempar koin, ruang sampelnya ...",
+      "opts": [
+        "{1,2}",
+        "{gambar, angka}",
+        "{merah, biru}",
+        "{0,1,2}"
+      ],
+      "a": 1,
+      "why": "Dua hasil mungkin: gambar atau angka."
+    },
+    {
+      "id": "data-5-v1",
+      "level": "data-5",
+      "q": "Kejadian muncul merah 18 kali dari 30 percobaan. Frekuensi relatifnya ...",
+      "opts": [
+        "0,3",
+        "0,5",
+        "0,6",
+        "0,8"
+      ],
+      "a": 2,
+      "why": "18/30 = 0,6 atau 60%."
+    },
+    {
+      "id": "bilangan-7-v1",
+      "level": "bilangan-7",
+      "q": "5 mesin menyelesaikan pekerjaan dalam 12 jam. Jika 10 mesin identik bekerja bersama, waktunya ...",
+      "opts": [
+        "3 jam",
+        "6 jam",
+        "12 jam",
+        "24 jam"
+      ],
+      "a": 1,
+      "why": "Jumlah mesin menjadi dua kali, sehingga waktu menjadi setengah: 6 jam."
+    },
+    {
+      "id": "data-3-v1",
+      "level": "data-3",
+      "q": "Dua kelompok memiliki median sama. Apakah semua nilai anggotanya pasti sama?",
+      "opts": [
+        "Pasti sama",
+        "Tidak, sebaran bisa berbeda",
+        "Pasti berbeda",
+        "Tidak bisa punya median"
+      ],
+      "a": 1,
+      "why": "Median yang sama hanya menunjukkan nilai tengah sama, bukan semua data."
+    },
+    {
+      "id": "data-5-v1",
+      "level": "data-5",
+      "q": "Frekuensi relatif 0,25 setara dengan ...",
+      "opts": [
+        "2,5%",
+        "25%",
+        "40%",
+        "250%"
+      ],
+      "a": 1,
+      "why": "Kalikan 0,25 dengan 100% sehingga menjadi 25%."
+    },
+    {
+      "id": "bilangan-8-q1",
+      "level": "bilangan-8",
+      "q": "Jika 72.000 ditulis dalam notasi ilmiah, bentuknya ...",
+      "opts": [
+        "7,2 × 10³",
+        "72 × 10³",
+        "7,2 × 10⁴",
+        "0,72 × 10⁴"
+      ],
+      "a": 2,
+      "why": "72.000 = 7,2 × 10⁴."
+    },
+    {
+      "id": "bilangan-8-q2",
+      "level": "bilangan-8",
+      "q": "Bilangan 0,00056 dalam notasi ilmiah adalah ...",
+      "opts": [
+        "5,6 × 10⁻⁴",
+        "5,6 × 10⁻⁵",
+        "56 × 10⁻⁵",
+        "0,56 × 10⁻³"
+      ],
+      "a": 0,
+      "why": "0,00056 = 5,6 × 10⁻⁴."
+    },
+    {
+      "id": "bilangan-9-q1",
+      "level": "bilangan-9",
+      "q": "Perkiraan 198 × 51 yang paling dekat adalah ...",
+      "opts": [
+        "1.000",
+        "5.000",
+        "10.000",
+        "15.000"
+      ],
+      "a": 2,
+      "why": "198 ≈ 200 dan 51 ≈ 50, sehingga 200 × 50 = 10.000."
+    },
+    {
+      "id": "bilangan-9-q2",
+      "level": "bilangan-9",
+      "q": "Pembulatan 3.847 ke ratusan terdekat adalah ...",
+      "opts": [
+        "3.800",
+        "3.850",
+        "3.900",
+        "4.000"
+      ],
+      "a": 0,
+      "why": "Puluhan 4 kurang dari 5, sehingga dibulatkan menjadi 3.800."
+    },
+    {
+      "id": "aljabar-8-q1",
+      "level": "aljabar-8",
+      "q": "Bentuk sederhana dari 5(a−3) adalah ...",
+      "opts": [
+        "5a−3",
+        "5a−8",
+        "5a−15",
+        "a−15"
+      ],
+      "a": 2,
+      "why": "5 dikalikan ke a dan −3 sehingga 5a−15."
+    },
+    {
+      "id": "aljabar-8-q2",
+      "level": "aljabar-8",
+      "q": "Faktorisasi dari 6x + 12 adalah ...",
+      "opts": [
+        "6(x+2)",
+        "3(2x+12)",
+        "6(x+12)",
+        "2(3x+12)"
+      ],
+      "a": 0,
+      "why": "Faktor persekutuan terbesar 6 dikeluarkan: 6(x+2)."
+    },
+    {
+      "id": "aljabar-9-q1",
+      "level": "aljabar-9",
+      "q": "Jumlah 4 suku pertama 3, 6, 9, 12 adalah ...",
+      "opts": [
+        "24",
+        "27",
+        "30",
+        "33"
+      ],
+      "a": 2,
+      "why": "3+6+9+12 = 30."
+    },
+    {
+      "id": "aljabar-9-q2",
+      "level": "aljabar-9",
+      "q": "Jumlah 5 bilangan pertama 1, 2, 3, 4, 5 adalah ...",
+      "opts": [
+        "10",
+        "12",
+        "15",
+        "20"
+      ],
+      "a": 2,
+      "why": "1+2+3+4+5=15."
+    },
+    {
+      "id": "geometri-7-q1",
+      "level": "geometri-7",
+      "q": "Jaring-jaring kubus terdiri dari ...",
+      "opts": [
+        "4 persegi",
+        "5 persegi",
+        "6 persegi",
+        "8 persegi"
+      ],
+      "a": 2,
+      "why": "Kubus memiliki 6 sisi berbentuk persegi."
+    },
+    {
+      "id": "geometri-7-q2",
+      "level": "geometri-7",
+      "q": "Jaring-jaring tabung terdiri dari ...",
+      "opts": [
+        "2 lingkaran dan 1 persegi panjang",
+        "6 persegi",
+        "1 lingkaran dan 1 segitiga",
+        "3 persegi panjang"
+      ],
+      "a": 0,
+      "why": "Tabung memiliki dua alas/tutup lingkaran dan satu selimut persegi panjang."
+    },
+    {
+      "id": "geometri-8-q1",
+      "level": "geometri-8",
+      "q": "Jika jari-jari bola menjadi 2 kali, volumenya menjadi ...",
+      "opts": [
+        "2 kali",
+        "4 kali",
+        "6 kali",
+        "8 kali"
+      ],
+      "a": 3,
+      "why": "Volume sebanding dengan r³, jadi 2³ = 8 kali."
+    },
+    {
+      "id": "geometri-8-q2",
+      "level": "geometri-8",
+      "q": "Jika r=1 satuan dan π=3, volume bola adalah ...",
+      "opts": [
+        "π",
+        "4π/3",
+        "2π",
+        "4π"
+      ],
+      "a": 1,
+      "why": "V=4/3×π×1³=4π/3."
+    },
+    {
+      "id": "data-6-q1",
+      "level": "data-6",
+      "q": "Diagram batang menunjukkan A=15 dan B=9. Selisihnya ...",
+      "opts": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "a": 2,
+      "why": "15−9=6."
+    },
+    {
+      "id": "data-6-q2",
+      "level": "data-6",
+      "q": "Pada diagram, nilai paling tinggi disebut ...",
+      "opts": [
+        "Nilai minimum",
+        "Nilai maksimum",
+        "Median",
+        "Modus"
+      ],
+      "a": 1,
+      "why": "Nilai maksimum adalah nilai terbesar pada data."
+    },
+    {
+      "id": "bilangan-1-q3",
+      "level": "bilangan-1",
+      "q": "Manakah bilangan rasional?",
+      "opts": [
+        "√3",
+        "π",
+        "−5/2",
+        "√7"
+      ],
+      "a": 2,
+      "why": "−5/2 adalah perbandingan dua bilangan bulat dengan penyebut bukan nol."
+    },
+    {
+      "id": "bilangan-2-q3",
+      "level": "bilangan-2",
+      "q": "Urutan dari terbesar adalah ...",
+      "opts": [
+        "0,2; 0,25; 0,5",
+        "0,5; 0,25; 0,2",
+        "0,25; 0,2; 0,5",
+        "0,2; 0,5; 0,25"
+      ],
+      "a": 1,
+      "why": "0,5 lebih besar dari 0,25, lalu 0,2."
+    },
+    {
+      "id": "bilangan-3-q3",
+      "level": "bilangan-3",
+      "q": "Hasil 30 − 12 ÷ 3 adalah ...",
+      "opts": [
+        "6",
+        "18",
+        "26",
+        "27"
+      ],
+      "a": 2,
+      "why": "Pembagian dahulu: 30 − 4 = 26."
+    },
+    {
+      "id": "bilangan-4-q3",
+      "level": "bilangan-4",
+      "q": "Bilangan prima berikut adalah ...",
+      "opts": [
+        "21",
+        "27",
+        "29",
+        "33"
+      ],
+      "a": 2,
+      "why": "29 hanya memiliki faktor positif 1 dan 29."
+    },
+    {
+      "id": "bilangan-5-q3",
+      "level": "bilangan-5",
+      "q": "Rasio 4 : 7 memiliki jumlah bagian  ...",
+      "opts": [
+        "7",
+        "9",
+        "11",
+        "28"
+      ],
+      "a": 2,
+      "why": "Jumlah bagian rasio adalah 4+7=11."
+    },
+    {
+      "id": "bilangan-6-q3",
+      "level": "bilangan-6",
+      "q": "5 tiket berharga Rp40.000. Harga 8 tiket adalah ...",
+      "opts": [
+        "Rp56.000",
+        "Rp60.000",
+        "Rp64.000",
+        "Rp80.000"
+      ],
+      "a": 2,
+      "why": "Harga satu tiket Rp8.000; delapan tiket Rp64.000."
+    },
+    {
+      "id": "bilangan-7-q3",
+      "level": "bilangan-7",
+      "q": "9 pekerja menyelesaikan tugas dalam 8 hari. Jika pekerja 12 orang, waktunya ...",
+      "opts": [
+        "4 hari",
+        "6 hari",
+        "8 hari",
+        "10 hari"
+      ],
+      "a": 1,
+      "why": "Hasil kali tetap: 9×8=12×t, sehingga t=6 hari."
+    },
+    {
+      "id": "bilangan-8-q3",
+      "level": "bilangan-8",
+      "q": "Notasi ilmiah dari 6.300.000 adalah ...",
+      "opts": [
+        "6,3×10⁵",
+        "6,3×10⁶",
+        "63×10⁵",
+        "0,63×10⁷"
+      ],
+      "a": 1,
+      "why": "Koma digeser enam tempat: 6,3×10⁶."
+    },
+    {
+      "id": "bilangan-9-q3",
+      "level": "bilangan-9",
+      "q": "Estimasi 49 × 21 paling dekat dengan ...",
+      "opts": [
+        "100",
+        "500",
+        "1.000",
+        "2.000"
+      ],
+      "a": 2,
+      "why": "49≈50 dan 21≈20, sehingga sekitar 1.000."
+    },
+    {
+      "id": "aljabar-1-q3",
+      "level": "aljabar-1",
+      "q": "Pada 8y + 11, koefisien y adalah ...",
+      "opts": [
+        "8",
+        "11",
+        "y",
+        "19"
+      ],
+      "a": 0,
+      "why": "Koefisien adalah bilangan pengali variabel y."
+    },
+    {
+      "id": "aljabar-2-q3",
+      "level": "aljabar-2",
+      "q": "Sederhanakan 6p + 2 − 4p + 5 ...",
+      "opts": [
+        "2p+7",
+        "10p+7",
+        "2p−3",
+        "10p−3"
+      ],
+      "a": 0,
+      "why": "Gabungkan suku sejenis: (6p−4p)+(2+5)=2p+7."
+    },
+    {
+      "id": "aljabar-3-q3",
+      "level": "aljabar-3",
+      "q": "Jika 4x + 3 = 19, nilai x adalah ...",
+      "opts": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "a": 1,
+      "why": "Kurangi 3: 4x=16, lalu x=4."
+    },
+    {
+      "id": "aljabar-4-q3",
+      "level": "aljabar-4",
+      "q": "Jika 3x ≥ 12, maka ...",
+      "opts": [
+        "x≥4",
+        "x≤4",
+        "x≥9",
+        "x≤9"
+      ],
+      "a": 0,
+      "why": "Bagi kedua ruas dengan 3 yang positif, tanda tetap."
+    },
+    {
+      "id": "aljabar-5-q3",
+      "level": "aljabar-5",
+      "q": "Jika x+y=8 dan x=5, nilai y adalah ...",
+      "opts": [
+        "2",
+        "3",
+        "5",
+        "13"
+      ],
+      "a": 1,
+      "why": "Substitusi x=5: 5+y=8 sehingga y=3."
+    },
+    {
+      "id": "aljabar-6-q3",
+      "level": "aljabar-6",
+      "q": "Jika f(x)=x−4, maka f(9)= ...",
+      "opts": [
+        "4",
+        "5",
+        "9",
+        "13"
+      ],
+      "a": 1,
+      "why": "f(9)=9−4=5."
+    },
+    {
+      "id": "aljabar-7-q3",
+      "level": "aljabar-7",
+      "q": "Suku berikutnya dari 10, 7, 4, 1, ... adalah ...",
+      "opts": [
+        "−1",
+        "0",
+        "−2",
+        "4"
+      ],
+      "a": 2,
+      "why": "Beda tetap −3, jadi suku berikutnya 1−3=−2."
+    },
+    {
+      "id": "aljabar-8-q3",
+      "level": "aljabar-8",
+      "q": "Hasil 2(3x+5) adalah ...",
+      "opts": [
+        "6x+5",
+        "6x+10",
+        "5x+10",
+        "3x+10"
+      ],
+      "a": 1,
+      "why": "Kalikan 2 ke setiap suku: 6x+10."
+    },
+    {
+      "id": "aljabar-9-q3",
+      "level": "aljabar-9",
+      "q": "Jumlah 3 suku pertama 4, 8, 12 adalah ...",
+      "opts": [
+        "20",
+        "22",
+        "24",
+        "28"
+      ],
+      "a": 2,
+      "why": "4+8+12=24."
+    },
+    {
+      "id": "geometri-1-q3",
+      "level": "geometri-1",
+      "q": "Sudut penyiku dari 35° adalah ...",
+      "opts": [
+        "45°",
+        "55°",
+        "65°",
+        "145°"
+      ],
+      "a": 1,
+      "why": "Sudut berpenyiku jumlahnya 90°, jadi 90°−35°=55°."
+    },
+    {
+      "id": "geometri-2-q3",
+      "level": "geometri-2",
+      "q": "Segitiga siku-siku memiliki sisi miring 13 dan sisi lain 5. Sisi ketiga adalah ...",
+      "opts": [
+        "8",
+        "10",
+        "12",
+        "18"
+      ],
+      "a": 2,
+      "why": "√(13²−5²)=√144=12."
+    },
+    {
+      "id": "geometri-3-q3",
+      "level": "geometri-3",
+      "q": "Dua segitiga sebangun memiliki perbandingan sisi 2:3. Sisi kecil 8 cm, sisi pasangannya ...",
+      "opts": [
+        "10 cm",
+        "12 cm",
+        "16 cm",
+        "24 cm"
+      ],
+      "a": 1,
+      "why": "Faktor skala 3/2, maka 8×3/2=12 cm."
+    },
+    {
+      "id": "geometri-4-q3",
+      "level": "geometri-4",
+      "q": "Titik (−2,3) ditranslasi (4,−1) menjadi ...",
+      "opts": [
+        "(2,2)",
+        "(−6,4)",
+        "(2,4)",
+        "(−2,2)"
+      ],
+      "a": 0,
+      "why": "Tambahkan koordinat: (−2+4, 3−1)=(2,2)."
+    },
+    {
+      "id": "geometri-5-q3",
+      "level": "geometri-5",
+      "q": "Keliling persegi panjang panjang 8 cm dan lebar 3 cm adalah ...",
+      "opts": [
+        "11 cm",
+        "22 cm",
+        "24 cm",
+        "48 cm"
+      ],
+      "a": 1,
+      "why": "Keliling=2(p+l)=2(8+3)=22 cm."
+    },
+    {
+      "id": "geometri-6-q3",
+      "level": "geometri-6",
+      "q": "Volume kubus dengan rusuk 4 cm adalah ...",
+      "opts": [
+        "16 cm³",
+        "32 cm³",
+        "48 cm³",
+        "64 cm³"
+      ],
+      "a": 3,
+      "why": "Volume kubus=s³=4³=64 cm³."
+    },
+    {
+      "id": "geometri-7-q3",
+      "level": "geometri-7",
+      "q": "Bangun ruang yang memiliki jaring-jaring berupa 6 persegi sama besar adalah ...",
+      "opts": [
+        "Balok",
+        "Kubus",
+        "Prisma segitiga",
+        "Limas segiempat"
+      ],
+      "a": 1,
+      "why": "Kubus mempunyai enam sisi persegi kongruen."
+    },
+    {
+      "id": "geometri-8-q3",
+      "level": "geometri-8",
+      "q": "Jika jari-jari bola menjadi 3 kali, volumenya menjadi ...",
+      "opts": [
+        "3 kali",
+        "6 kali",
+        "9 kali",
+        "27 kali"
+      ],
+      "a": 3,
+      "why": "Volume sebanding dengan r³, jadi 3³=27 kali."
+    },
+    {
+      "id": "data-1-q3",
+      "level": "data-1",
+      "q": "Diagram yang tepat untuk membandingkan jumlah siswa pada beberapa ekstrakurikuler adalah ...",
+      "opts": [
+        "Diagram batang",
+        "Diagram garis waktu",
+        "Peta koordinat",
+        "Garis bilangan"
+      ],
+      "a": 0,
+      "why": "Diagram batang cocok membandingkan jumlah antar kategori."
+    },
+    {
+      "id": "data-2-q3",
+      "level": "data-2",
+      "q": "Median dari 3, 5, 8, 9 adalah ...",
+      "opts": [
+        "5",
+        "6,5",
+        "8",
+        "9"
+      ],
+      "a": 1,
+      "why": "Median data genap adalah rata-rata dua nilai tengah: (5+8)/2=6,5."
+    },
+    {
+      "id": "data-3-q3",
+      "level": "data-3",
+      "q": "Kelompok A memiliki jangkauan 4 dan B jangkauan 12. Data yang lebih menyebar adalah ...",
+      "opts": [
+        "A",
+        "B",
+        "Sama",
+        "Tidak bisa diketahui"
+      ],
+      "a": 1,
+      "why": "Jangkauan lebih besar menunjukkan rentang data lebih lebar."
+    },
+    {
+      "id": "data-4-q3",
+      "level": "data-4",
+      "q": "Peluang mengambil bola merah 2 dari total 5 bola (semua sama mungkin) adalah ...",
+      "opts": [
+        "1/5",
+        "2/5",
+        "3/5",
+        "1"
+      ],
+      "a": 1,
+      "why": "Ada 2 hasil merah dari 5 kemungkinan."
+    },
+    {
+      "id": "data-5-q3",
+      "level": "data-5",
+      "q": "Dari 40 percobaan, suatu kejadian muncul 10 kali. Frekuensi relatifnya ...",
+      "opts": [
+        "10%",
+        "20%",
+        "25%",
+        "40%"
+      ],
+      "a": 2,
+      "why": "10/40=0,25=25%."
+    },
+    {
+      "id": "data-6-q3",
+      "level": "data-6",
+      "q": "Pada diagram batang, kategori dengan batang paling pendek menunjukkan ...",
+      "opts": [
+        "Frekuensi terbesar",
+        "Frekuensi terkecil",
+        "Nilai rata-rata",
+        "Median"
+      ],
+      "a": 1,
+      "why": "Batang paling pendek mewakili frekuensi paling kecil."
+    },
+    {
+      "id": "bilangan-1-q4",
+      "level": "bilangan-1",
+      "q": "Bilangan √16 termasuk ...",
+      "opts": [
+        "Irasional",
+        "Rasional",
+        "Bukan real",
+        "Tidak terdefinisi"
+      ],
+      "a": 1,
+      "why": "√16=4, yaitu bilangan rasional."
+    },
+    {
+      "id": "bilangan-2-q4",
+      "level": "bilangan-2",
+      "q": "Bilangan paling kecil adalah ...",
+      "opts": [
+        "−0,4",
+        "−0,04",
+        "0",
+        "0,4"
+      ],
+      "a": 0,
+      "why": "Di antara bilangan negatif, −0,4 lebih kecil daripada −0,04."
+    },
+    {
+      "id": "bilangan-3-q4",
+      "level": "bilangan-3",
+      "q": "Hasil 7 × (9 − 5) + 2 adalah ...",
+      "opts": [
+        "20",
+        "28",
+        "30",
+        "38"
+      ],
+      "a": 2,
+      "why": "Kurung dahulu: 7×4+2=28+2=30."
+    },
+    {
+      "id": "bilangan-4-q4",
+      "level": "bilangan-4",
+      "q": "Faktor prima dari 36 adalah ...",
+      "opts": [
+        "2 dan 3",
+        "2 dan 5",
+        "3 dan 5",
+        "2, 3, dan 5"
+      ],
+      "a": 0,
+      "why": "36=2²×3², jadi faktor primanya 2 dan 3."
+    },
+    {
+      "id": "bilangan-5-q4",
+      "level": "bilangan-5",
+      "q": "Rasio 15 menit terhadap 1 jam adalah ...",
+      "opts": [
+        "1:2",
+        "1:3",
+        "1:4",
+        "1:5"
+      ],
+      "a": 2,
+      "why": "1 jam=60 menit, jadi 15:60=1:4."
+    },
+    {
+      "id": "bilangan-6-q4",
+      "level": "bilangan-6",
+      "q": "6 meter kain seharga Rp90.000. Harga 2 meter adalah ...",
+      "opts": [
+        "Rp15.000",
+        "Rp20.000",
+        "Rp30.000",
+        "Rp45.000"
+      ],
+      "a": 2,
+      "why": "Harga per meter Rp15.000, jadi 2 meter Rp30.000."
+    },
+    {
+      "id": "bilangan-7-q4",
+      "level": "bilangan-7",
+      "q": "Kecepatan 60 km/jam menempuh jarak 120 km dalam ...",
+      "opts": [
+        "1 jam",
+        "2 jam",
+        "3 jam",
+        "4 jam"
+      ],
+      "a": 1,
+      "why": "Waktu=jarak/kecepatan=120/60=2 jam."
+    },
+    {
+      "id": "bilangan-8-q4",
+      "level": "bilangan-8",
+      "q": "Notasi ilmiah dari 0,0042 adalah ...",
+      "opts": [
+        "4,2×10⁻²",
+        "4,2×10⁻³",
+        "42×10⁻³",
+        "0,42×10⁻²"
+      ],
+      "a": 1,
+      "why": "Koma digeser tiga tempat ke kanan, sehingga pangkat −3."
+    },
+    {
+      "id": "bilangan-9-q4",
+      "level": "bilangan-9",
+      "q": "Untuk estimasi 602 ÷ 29, pembulatan yang masuk akal adalah ...",
+      "opts": [
+        "600÷30",
+        "600÷20",
+        "700÷30",
+        "500÷20"
+      ],
+      "a": 0,
+      "why": "602≈600 dan 29≈30, sehingga 600÷30≈20."
+    },
+    {
+      "id": "aljabar-1-q4",
+      "level": "aljabar-1",
+      "q": "Pada 4a + 3b − 9, banyak variabel berbeda adalah ...",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "a": 1,
+      "why": "Variabel yang muncul adalah a dan b."
+    },
+    {
+      "id": "aljabar-2-q4",
+      "level": "aljabar-2",
+      "q": "Sederhanakan 9x − 4x + 2x ...",
+      "opts": [
+        "7x",
+        "11x",
+        "7x²",
+        "15x"
+      ],
+      "a": 0,
+      "why": "(9−4+2)x=7x."
+    },
+    {
+      "id": "aljabar-3-q4",
+      "level": "aljabar-3",
+      "q": "Jika x/5 = 3, nilai x adalah ...",
+      "opts": [
+        "8",
+        "10",
+        "15",
+        "20"
+      ],
+      "a": 2,
+      "why": "Kalikan kedua ruas dengan 5: x=15."
+    },
+    {
+      "id": "aljabar-4-q4",
+      "level": "aljabar-4",
+      "q": "Jika x − 6 ≤ 2, maka ...",
+      "opts": [
+        "x≤8",
+        "x≥8",
+        "x≤4",
+        "x≥4"
+      ],
+      "a": 0,
+      "why": "Tambah 6 pada kedua ruas: x≤8."
+    },
+    {
+      "id": "aljabar-5-q4",
+      "level": "aljabar-5",
+      "q": "Jika 2x+y=11 dan x=4, nilai y adalah ...",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "a": 2,
+      "why": "2(4)+y=11, sehingga y=3."
+    },
+    {
+      "id": "aljabar-6-q4",
+      "level": "aljabar-6",
+      "q": "Jika f(x)=x², maka f(−3)= ...",
+      "opts": [
+        "−9",
+        "−6",
+        "6",
+        "9"
+      ],
+      "a": 3,
+      "why": "f(−3)=(−3)²=9."
+    },
+    {
+      "id": "aljabar-7-q4",
+      "level": "aljabar-7",
+      "q": "Beda barisan 20, 16, 12, 8 adalah ...",
+      "opts": [
+        "−2",
+        "−3",
+        "−4",
+        "4"
+      ],
+      "a": 2,
+      "why": "Setiap suku berkurang 4."
+    },
+    {
+      "id": "aljabar-8-q4",
+      "level": "aljabar-8",
+      "q": "Bentuk faktor dari 10x + 15 adalah ...",
+      "opts": [
+        "5(2x+3)",
+        "10(x+15)",
+        "15(x+10)",
+        "5(2x+15)"
+      ],
+      "a": 0,
+      "why": "Faktor persekutuan terbesar 5 dikeluarkan."
+    },
+    {
+      "id": "aljabar-9-q4",
+      "level": "aljabar-9",
+      "q": "Jumlah 4 suku pertama barisan 2, 4, 6, 8 adalah ...",
+      "opts": [
+        "16",
+        "18",
+        "20",
+        "24"
+      ],
+      "a": 2,
+      "why": "2+4+6+8=20."
+    },
+    {
+      "id": "geometri-1-q4",
+      "level": "geometri-1",
+      "q": "Jika satu sudut berpelurus 128°, sudut lainnya ...",
+      "opts": [
+        "42°",
+        "52°",
+        "62°",
+        "128°"
+      ],
+      "a": 1,
+      "why": "180°−128°=52°."
+    },
+    {
+      "id": "geometri-2-q4",
+      "level": "geometri-2",
+      "q": "Segitiga siku-siku dengan sisi siku-siku 9 dan 12 memiliki sisi miring ...",
+      "opts": [
+        "13",
+        "15",
+        "18",
+        "21"
+      ],
+      "a": 1,
+      "why": "√(9²+12²)=√225=15."
+    },
+    {
+      "id": "geometri-3-q4",
+      "level": "geometri-3",
+      "q": "Dua bangun kongruen memiliki luas ...",
+      "opts": [
+        "Selalu berbeda",
+        "Sama",
+        "Selalu dua kali",
+        "Tidak berkaitan"
+      ],
+      "a": 1,
+      "why": "Bangun kongruen sama bentuk dan ukuran, sehingga luasnya sama."
+    },
+    {
+      "id": "geometri-4-q4",
+      "level": "geometri-4",
+      "q": "Rotasi 180° terhadap titik pusat O memetakan (2,−3) menjadi ...",
+      "opts": [
+        "(2,3)",
+        "(−2,3)",
+        "(−2,−3)",
+        "(3,−2)"
+      ],
+      "a": 1,
+      "why": "Rotasi 180° terhadap O: (x,y) menjadi (−x,−y)."
+    },
+    {
+      "id": "geometri-5-q4",
+      "level": "geometri-5",
+      "q": "Luas persegi dengan sisi 9 cm adalah ...",
+      "opts": [
+        "18 cm²",
+        "36 cm²",
+        "72 cm²",
+        "81 cm²"
+      ],
+      "a": 3,
+      "why": "Luas=s²=9²=81 cm²."
+    },
+    {
+      "id": "geometri-6-q4",
+      "level": "geometri-6",
+      "q": "Volume prisma luas alas 20 cm² dan tinggi 7 cm adalah ...",
+      "opts": [
+        "27 cm³",
+        "70 cm³",
+        "140 cm³",
+        "280 cm³"
+      ],
+      "a": 2,
+      "why": "Volume=20×7=140 cm³."
+    },
+    {
+      "id": "geometri-7-q4",
+      "level": "geometri-7",
+      "q": "Berapa sisi berbentuk persegi panjang pada jaring-jaring tabung?",
+      "opts": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "a": 0,
+      "why": "Selimut tabung jika dibentangkan berbentuk satu persegi panjang."
+    },
+    {
+      "id": "geometri-8-q4",
+      "level": "geometri-8",
+      "q": "Rumus volume bola adalah ...",
+      "opts": [
+        "πr²",
+        "2πr",
+        "4/3 πr³",
+        "πr³"
+      ],
+      "a": 2,
+      "why": "Rumus volume bola adalah empat per tiga kali π kali r pangkat tiga."
+    },
+    {
+      "id": "data-1-q4",
+      "level": "data-1",
+      "q": "Data jumlah pengunjung museum per hari selama sebulan cocok disajikan dengan ...",
+      "opts": [
+        "Diagram garis",
+        "Garis bilangan",
+        "Diagram Venn",
+        "Bangun ruang"
+      ],
+      "a": 0,
+      "why": "Diagram garis membantu melihat perubahan dari hari ke hari."
+    },
+    {
+      "id": "data-2-q4",
+      "level": "data-2",
+      "q": "Jangkauan data 4, 7, 9, 12, 15 adalah ...",
+      "opts": [
+        "8",
+        "9",
+        "11",
+        "15"
+      ],
+      "a": 2,
+      "why": "Jangkauan=nilai terbesar−terkecil=15−4=11."
+    },
+    {
+      "id": "data-3-q4",
+      "level": "data-3",
+      "q": "Jika mean dua kelompok sama, apakah nilai maksimum keduanya harus sama?",
+      "opts": [
+        "Ya, selalu",
+        "Tidak selalu",
+        "Pasti berbeda",
+        "Tidak ada mean"
+      ],
+      "a": 1,
+      "why": "Mean yang sama tidak mengharuskan nilai maksimum sama."
+    },
+    {
+      "id": "data-4-q4",
+      "level": "data-4",
+      "q": "Peluang muncul bilangan prima pada dadu adalah ...",
+      "opts": [
+        "1/6",
+        "1/3",
+        "1/2",
+        "2/3"
+      ],
+      "a": 2,
+      "why": "Bilangan prima pada dadu: 2,3,5, ada 3 dari 6 hasil."
+    },
+    {
+      "id": "data-5-q4",
+      "level": "data-5",
+      "q": "Kejadian terjadi 8 kali dari 20 percobaan. Frekuensi relatifnya ...",
+      "opts": [
+        "0,2",
+        "0,4",
+        "0,6",
+        "0,8"
+      ],
+      "a": 1,
+      "why": "8/20=0,4."
+    },
+    {
+      "id": "data-6-q4",
+      "level": "data-6",
+      "q": "Diagram batang memperlihatkan 12, 17, dan 9 siswa. Kategori terbanyak berjumlah ...",
+      "opts": [
+        "9",
+        "12",
+        "17",
+        "38"
+      ],
+      "a": 2,
+      "why": "Nilai terbesar dari 12,17,9 adalah 17."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc-bilangan-1",
+      "level": "bilangan-1",
+      "front": "Bilangan Real",
+      "back": "Bilangan real terdiri dari rasional dan irasional. Contoh: 0,75 = 3/4 rasional; √2 irasional."
+    },
+    {
+      "id": "fc-bilangan-2",
+      "level": "bilangan-2",
+      "front": "Membandingkan Bilangan",
+      "back": "Posisi lebih kanan berarti lebih besar. Contoh: 2/3 ≈ 0,667, jadi 2/3 > 0,6."
+    },
+    {
+      "id": "fc-bilangan-3",
+      "level": "bilangan-3",
+      "front": "Operasi Bilangan",
+      "back": "Urutan operasi: kurung, kali/bagi, tambah/kurang. Contoh: 18 − 2 × 5 = 18 − 10 = 8."
+    },
+    {
+      "id": "fc-bilangan-4",
+      "level": "bilangan-4",
+      "front": "Faktor dan Faktorisasi Prima",
+      "back": "Faktorisasi prima hanya memakai faktor prima. Contoh: 24 = 2 × 2 × 2 × 3 = 2³ × 3."
+    },
+    {
+      "id": "fc-bilangan-5",
+      "level": "bilangan-5",
+      "front": "Rasio dan Proporsi",
+      "back": "Kalikan kedua bagian rasio dengan bilangan sama. Contoh: 2 : 3 setara dengan 4 : 6."
+    },
+    {
+      "id": "fc-bilangan-6",
+      "level": "bilangan-6",
+      "front": "Perbandingan Senilai",
+      "back": "Pada perbandingan senilai, rasio pasangan tetap. Contoh: 3 buku Rp18.000, maka 5 buku Rp30.000."
+    },
+    {
+      "id": "fc-bilangan-7",
+      "level": "bilangan-7",
+      "front": "Perbandingan Berbalik Nilai",
+      "back": "Pada perbandingan berbalik nilai, hasil kali tetap. Contoh: 4 pekerja selesai 6 hari; 8 pekerja perlu 3 hari."
+    },
+    {
+      "id": "fc-aljabar-1",
+      "level": "aljabar-1",
+      "front": "Bentuk Aljabar",
+      "back": "Suku sejenis memiliki variabel dan pangkat sama. Contoh: Pada 5x + 3, variabel x, koefisien 5, konstanta 3."
+    },
+    {
+      "id": "fc-aljabar-2",
+      "level": "aljabar-2",
+      "front": "Operasi Bentuk Aljabar",
+      "back": "Gabungkan hanya suku sejenis. Contoh: 3x + 2x − 4 = 5x − 4."
+    },
+    {
+      "id": "fc-aljabar-3",
+      "level": "aljabar-3",
+      "front": "Persamaan Linear Satu Variabel",
+      "back": "Buat variabel berdiri sendiri. Contoh: x + 7 = 12. Kurangi 7 pada kedua ruas, maka x = 5."
+    },
+    {
+      "id": "fc-aljabar-4",
+      "level": "aljabar-4",
+      "front": "Pertidaksamaan Linear",
+      "back": "Balik tanda jika dikali/dibagi bilangan negatif. Contoh: 2x < 10 berarti x < 5."
+    },
+    {
+      "id": "fc-aljabar-5",
+      "level": "aljabar-5",
+      "front": "Sistem Persamaan Linear Dua Variabel",
+      "back": "Substitusi dan eliminasi adalah metode penyelesaian. Contoh: x+y=7 dan x−y=1 menghasilkan x=4, y=3."
+    },
+    {
+      "id": "fc-aljabar-6",
+      "level": "aljabar-6",
+      "front": "Relasi dan Fungsi",
+      "back": "Satu input fungsi hanya memiliki satu output. Contoh: f(x)=2x, domain {1,2,3}, range {2,4,6}."
+    },
+    {
+      "id": "fc-aljabar-7",
+      "level": "aljabar-7",
+      "front": "Barisan dan Deret",
+      "back": "Cari beda tetap sebelum menentukan rumus. Contoh: 3, 7, 11, 15 memiliki beda 4; U5 = 19."
+    },
+    {
+      "id": "fc-geometri-1",
+      "level": "geometri-1",
+      "front": "Sudut dan Garis",
+      "back": "Gunakan hubungan sudut sebelum menghitung. Contoh: Jika satu sudut berpelurus 65°, sudut lainnya 115°."
+    },
+    {
+      "id": "fc-geometri-2",
+      "level": "geometri-2",
+      "front": "Teorema Pythagoras",
+      "back": "Sisi miring berhadapan dengan sudut 90°. Contoh: Sisi siku-siku 3 dan 4, maka c=√25=5."
+    },
+    {
+      "id": "fc-geometri-3",
+      "level": "geometri-3",
+      "front": "Kesebangunan dan Kekongruenan",
+      "back": "Sebangun: bentuk sama; kongruen: bentuk dan ukuran sama. Contoh: Segitiga 3,4,5 sebangun dengan 6,8,10."
+    },
+    {
+      "id": "fc-geometri-4",
+      "level": "geometri-4",
+      "front": "Transformasi Geometri",
+      "back": "Perhatikan aturan koordinat tiap transformasi. Contoh: Translasi (x,y) oleh (a,b) menjadi (x+a,y+b)."
+    },
+    {
+      "id": "fc-geometri-5",
+      "level": "geometri-5",
+      "front": "Keliling dan Luas",
+      "back": "Keliling satuan panjang; luas satuan persegi. Contoh: Persegi sisi 5 cm: K=20 cm dan L=25 cm²."
+    },
+    {
+      "id": "fc-geometri-6",
+      "level": "geometri-6",
+      "front": "Volume Bangun Ruang",
+      "back": "Pastikan satuan volume adalah kubik. Contoh: Prisma luas alas 12 cm² dan tinggi 5 cm memiliki volume 60 cm³."
+    },
+    {
+      "id": "fc-data-1",
+      "level": "data-1",
+      "front": "Mengumpulkan dan Menyajikan Data",
+      "back": "Pilih penyajian sesuai tujuan dan jenis data. Contoh: Diagram batang cocok membandingkan jumlah antar kategori."
+    },
+    {
+      "id": "fc-data-2",
+      "level": "data-2",
+      "front": "Mean, Median, Modus, dan Jangkauan",
+      "back": "Urutkan data sebelum mencari median. Contoh: Data 2,3,3,8: mean 4; median 3; modus 3; jangkauan 6."
+    },
+    {
+      "id": "fc-data-3",
+      "level": "data-3",
+      "front": "Membandingkan dan Menafsirkan Data",
+      "back": "Perhatikan konteks dan penyebaran data. Contoh: Rata-rata kelas A lebih tinggi belum tentu semua nilai siswa A lebih tinggi."
+    },
+    {
+      "id": "fc-data-4",
+      "level": "data-4",
+      "front": "Ruang Sampel dan Peluang",
+      "back": "Peluang berada antara 0 dan 1. Contoh: Peluang angka genap pada dadu = 3/6 = 1/2."
+    },
+    {
+      "id": "fc-data-5",
+      "level": "data-5",
+      "front": "Frekuensi Relatif",
+      "back": "Hasil percobaan acak dapat berubah-ubah. Contoh: Muncul gambar 28 kali dari 50 lemparan: 28/50 = 0,56."
+    },
+    {
+      "id": "fc-bilangan-8",
+      "level": "bilangan-8",
+      "front": "Notasi Ilmiah",
+      "back": "Geser koma sampai hanya satu angka bukan nol di depan koma; hitung banyak geseran sebagai pangkat 10. Contoh: 4.500.000 = 4,5 × 10⁶."
+    },
+    {
+      "id": "fc-bilangan-9",
+      "level": "bilangan-9",
+      "front": "Estimasi dan Masalah Sehari-hari",
+      "back": "Pilih pembulatan yang membuat hitungan mudah tetapi tetap dekat dengan nilai sebenarnya. Contoh: Harga Rp19.800 + Rp30.200 dapat diperkirakan Rp20.000 + Rp30.000 = Rp50.000."
+    },
+    {
+      "id": "fc-aljabar-8",
+      "level": "aljabar-8",
+      "front": "Distributif dan Pemfaktoran",
+      "back": "Kalikan faktor ke setiap suku, atau cari faktor persekutuan terbesar untuk memfaktorkan. Contoh: 3(x+2)=3x+6 dan 4x+8=4(x+2)."
+    },
+    {
+      "id": "fc-aljabar-9",
+      "level": "aljabar-9",
+      "front": "Deret Aritmetika",
+      "back": "Tentukan suku pertama dan suku ke-n sebelum memakai rumus jumlah. Contoh: Barisan 2, 5, 8, 11. Jumlah 4 suku = 2+5+8+11 = 26."
+    },
+    {
+      "id": "fc-geometri-7",
+      "level": "geometri-7",
+      "front": "Jaring-jaring Bangun Ruang",
+      "back": "Hitung jumlah sisi dan bayangkan sisi mana yang saling bertemu saat dilipat. Contoh: Jaring-jaring kubus terdiri dari 6 persegi yang tersusun dan dapat dilipat menjadi kubus."
+    },
+    {
+      "id": "fc-geometri-8",
+      "level": "geometri-8",
+      "front": "Volume Bola",
+      "back": "Pastikan jari-jari dipangkatkan tiga dan hasil memakai satuan kubik. Contoh: Jika r=3 cm dan π=3,14, V≈4/3×3,14×27=113,04 cm³."
+    },
+    {
+      "id": "fc-data-6",
+      "level": "data-6",
+      "front": "Membaca Diagram dan Tabel",
+      "back": "Perhatikan skala sumbu agar tidak salah membaca perbedaan. Contoh: Jika diagram batang menunjukkan 12 siswa memilih sepak bola dan 8 memilih basket, selisihnya 4 siswa."
+    }
+  ]
+}
